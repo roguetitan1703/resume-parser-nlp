@@ -6,7 +6,13 @@ import os
 import shutil
 import uuid
 from pathlib import Path
-from services import Scraper
+from services import Scraper, OCRProcessor, ResumeProcessor
+
+from ultra_logger import Logger  # Assuming you're using ultra_logger
+# Initialize logger
+logger = Logger(log_file="resume_processing.log", log_name="Resume processing")  # Example logger
+resume_processor = ResumeProcessor(logger)  # Initialize the ResumeProcessor
+
 # Setting up the router
 router = APIRouter()
 
@@ -30,7 +36,7 @@ async def get_root(request: Request):
 
 
 @router.post("/extract_data_depreceated")
-async def extract_data(file: UploadFile):
+async def extract_data_depreceated(file: UploadFile):
     """
     Handle file upload, process it, and return the processed Excel file.
     """
@@ -73,7 +79,7 @@ async def extract_data(file: UploadFile):
         if os.path.exists(file_path):
             os.remove(file_path)
 
-router.post("/extract_data")
+@router.post("/extract_data")
 async def extract_data(file: UploadFile):
     """
     Handle file upload, process it, and return extracted resume data or download file.
@@ -88,26 +94,29 @@ async def extract_data(file: UploadFile):
         with open(file_path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
 
-        # Step 1: Extract text from the resume using OCR (or other method)
-        if file_extension.lower() in ['.pdf']:  # Adjust if handling more file types
-            text = OCRProcessor.extract_text(file_path)
+        # Step 1: Extract text from the resume using the ResumeProcessor class
+        if file_extension.lower() in ['.pdf', '.doc', '.docx']:
+            text = resume_processor.extract_text(file_path)
+        else:
+            raise HTTPException(status_code=400, detail="Unsupported file format. Only PDF, DOC, and DOCX are supported.")
 
+        # Optional steps for further processing (commented out for now)
         # Step 2: Preprocess the extracted text
-        preprocessed_text = preprocess_text(text)
+        # preprocessed_text = preprocess_text(text)
 
         # Step 3: Extract key entities using NER
-        entities = extract_entities(preprocessed_text)
+        # entities = extract_entities(preprocessed_text)
 
         # Step 4: Structure the extracted data (name, education, skills, etc.)
-        structured_data = ResumeParser.structure_resume_data(entities)
+        # structured_data = ResumeParser.structure_resume_data(entities)
 
         # Optional: Save the structured data to a database, or return directly
         # save_to_database(structured_data)
 
-        # Return the structured resume data as JSON response
+        # Return the extracted resume text as a JSON response
         return {
             "status": "success",
-            "data": structured_data
+            "data": text
         }
 
     except HTTPException as http_exc:

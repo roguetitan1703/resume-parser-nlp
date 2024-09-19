@@ -1,34 +1,73 @@
 import spacy
+import os
+from PyPDF2 import PdfReader
+from docx import Document
+from spire.doc import Document as SpireDoc
 
-class ResumeParser:
-    def __init__(self, model="en_core_web_sm"):
-        self.nlp = spacy.load(model)
+class ResumeProcessor:
+    def __init__(self, logger):
+        self.log = logger
 
-    def parse(self, text):
-        doc = self.nlp(text)
-        resume_data = {
-            "name": self.extract_name(doc),
-            "skills": self.extract_skills(doc),
-            "experience": self.extract_experience(doc),
-            "education": self.extract_education(doc),
-        }
-        return resume_data
+    def extract_text(self, cv_path):
+        """
+        Extract text from .pdf, .docx, and .doc files.
+        """
+        file_extension = os.path.splitext(cv_path)[1].lower()
+        text = ""
 
-    def extract_name(self, doc):
-        # Use named entity recognition to extract the name
-        for ent in doc.ents:
-            if ent.label_ == "PERSON":
-                return ent.text
-        return "Name not found"
+        if file_extension == ".pdf":
+            text = self._extract_from_pdf(cv_path)
+        elif file_extension == ".docx":
+            text = self._extract_from_docx(cv_path)
+        elif file_extension == ".doc":
+            text = self._extract_from_doc(cv_path)
+        else:
+            self.log.error(f"Unsupported file format: {cv_path}")
+            raise ValueError(f"Unsupported file format: {file_extension}")
 
-    def extract_skills(self, doc):
-        # A placeholder for skills extraction logic
-        return ["Python", "Machine Learning"]  # Example
+        # Remove the /n
+        text = text.replace("\n", " ")
+        
+        return text
 
-    def extract_experience(self, doc):
-        # Placeholder for extracting experience
-        return "Experience info"
+    def _extract_from_pdf(self, cv_path):
+        """
+        Extract text from PDF files using PyPDF2.
+        """
+        text = ""
+        try:
+            self.log.info(f"Reading PDF: {cv_path}")
+            with open(cv_path, 'rb') as f:
+                reader = PdfReader(f)
+                for page in reader.pages:
+                    text += page.extract_text()
+        except Exception as e:
+            self.log.exception(f"Error reading PDF {cv_path}: {e}", exc_info=True)
+        return text
 
-    def extract_education(self, doc):
-        # Placeholder for extracting education info
-        return "Education info"
+    def _extract_from_docx(self, cv_path):
+        """
+        Extract text from DOCX files using python-docx.
+        """
+        text = ""
+        try:
+            self.log.info(f"Reading DOCX: {cv_path}")
+            doc = Document(cv_path)
+            text = "\n".join([paragraph.text.strip() for paragraph in doc.paragraphs])
+        except Exception as e:
+            self.log.exception(f"Error reading DOCX {cv_path}: {e}", exc_info=True)
+        return text
+
+    def _extract_from_doc(self, cv_path):
+        """
+        Extract text from DOC files using Spire.Doc.
+        """
+        text = ""
+        try:
+            self.log.info(f"Reading DOC using Spire.Doc: {cv_path}")
+            doc = SpireDoc(cv_path)
+            text = doc.GetText()
+        except Exception as e:
+            self.log.exception(f"Error reading DOC {cv_path}: {e}", exc_info=True)
+        return text
+
