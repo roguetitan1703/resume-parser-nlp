@@ -1,47 +1,4 @@
-polybius_square = [
-    ['A', 'B', 'C', 'D', 'E', 'F'],
-    ['G', 'H', 'I', 'J', 'K', 'L'],
-    ['M', 'N', 'O', 'P', 'Q', 'R'],
-    ['S', 'T', 'U', 'V', 'W', 'X'],
-    ['Y', 'Z', '0', '1', '2', '3'],
-    ['4', '5', '6', '7', '8', '9'],
-    ]
 
-def get_polybius_square_value(value, polybius_square=polybius_square):
-    """
-    Gets the Polybius Square value (letter or coordinates) for a given input.
-
-    Args:
-        value: A letter (uppercase or lowercase) or a tuple representing coordinates 
-                (row, column) to find the value for.
-        polybius_square: A 2D list representing the Polybius Square configuration.
-
-    Returns:
-        A letter (if value is coordinates) or a tuple containing the row and column 
-        (zero-indexed) of the letter in the square (if value is a letter), or None 
-        if the value is not found.
-    """
-    
-
-    if isinstance(value, str):
-        # Handle letter case (uppercase for consistency)
-        letter = value.upper()
-        for row, row_values in enumerate(polybius_square):
-            if letter in row_values:
-                col = row_values.index(letter)
-                return row, col
-        return None
-
-    elif isinstance(value, tuple) and len(value) == 2:
-        # Handle coordinates (row, column)
-        row, col = value
-        if 0 <= row < len(polybius_square) and 0 <= col < len(polybius_square[0]):
-            return polybius_square[row][col]
-        return None
-
-    else:
-        # Invalid input type
-        return None
 
     # Example usage
 

@@ -8,3 +8,5 @@ test.py
 .temp_extract
 scraper.log
 main.log
+.venv
+files
