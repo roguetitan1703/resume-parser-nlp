@@ -5,6 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      zIndex: {
+        9999: "9999",
+      },
+      scale: {
+        101: "1.01",
+      },
       // Add custom utilities
       maskImage: {
         "gradient-bottom": "linear-gradient(to bottom, transparent, black)",
