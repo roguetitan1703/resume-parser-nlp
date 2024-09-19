@@ -10,3 +10,5 @@ scraper.log
 main.log
 .venv
 files
+node_modules
+package-lock.json

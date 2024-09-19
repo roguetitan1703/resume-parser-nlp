@@ -1,0 +1,21 @@
+{
+  "name": "resume-parser-nlp",
+  "version": "1.0.0",
+  "description": "The Resume Parsing system aims to automate the process of extracting relevant information from candidate resumes. By leveraging Natural Language Processing (NLP) techniques, this application will significantly reduce manual effort for HR departments.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss -i ./app/static/css/tailwind.css -o ./app/static/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.12"
+  }
+}
