@@ -1,1 +1,3 @@
-from .scraper import Scraper
+from .Scraper import Scraper
+from .OCRProcessor import OCRProcessor
+from .ResumeParser import ResumeParser
