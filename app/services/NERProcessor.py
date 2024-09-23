@@ -4,64 +4,68 @@ from pymongo import MongoClient
 from spacy.matcher import PhraseMatcher
 import logging
 
-# Define NERArrays directly in the code
+# Define NERArrays directly in the code, converted to lowercase
 NERArrays = {
     "external_links": {
-        "GitHub": ["github.com"],
-        "LinkedIn": ["linkedin.com"],
-        "HackerRank": ["hackerrank.com"],
-        "LeetCode": ["leetcode.com"],
-        "CodeChef": ["codechef.com"],
-        "CodingNinjas": ["codingninjas.com"]
+        "github": ["github.com"],
+        "linkedin": ["linkedin.com"],
+        "hackerrank": ["hackerrank.com"],
+        "leetcode": ["leetcode.com"],
+        "codechef": ["codechef.com"],
+        "codingninjas": ["codingninjas.com"]
     },
     "social_links": {
-        "Instagram": ["instagram.com"],
-        "Twitter": ["twitter.com", "x.com"],
-        "Facebook": ["facebook.com"]
+        "instagram": ["instagram.com"],
+        "twitter": ["twitter.com", "x.com"],
+        "facebook": ["facebook.com"]
     },
     "programming_languages": [
-        "Python", "Java", "JavaScript", "C#", "C++", "Ruby", "Go", "Swift", "Kotlin", 
-        "PHP", "TypeScript", "Scala", "Rust", "Perl", "Clojure"
+        "python", "java", "javascript", "js", "c#", "c-sharp", "c++", "cpp", "ruby", 
+        "go", "golang", "swift", "kotlin", "php", "typescript", "ts", "scala", "rust", 
+        "perl", "clojure", "bash", "shell", "objective-c", "dart", "r", "matlab", 
+        "elixir", "haskell", "lua", "erlang", "f#", "fortran", "cobol", "sas"
     ],
     "frameworks": [
-        "Django", "Flask", "React", "Angular", "Vue.js", "Spring", "ASP.NET", 
-        "Ruby on Rails", "Express.js", "Node.js", "Laravel", "Symfony", "Ember.js", 
-        "Backbone.js"
+        "django", "flask", "react", "react.js", "angular", "angular.js", "vue.js", "vue", 
+        "spring", "spring boot", "asp.net", "ruby on rails", "express.js", "express", 
+        "node.js", "node", "laravel", "symfony", "ember.js", "backbone.js", "next.js", 
+        "nuxt.js", "svelte", "pyramid", "fastapi", "bottle", "phoenix", "meteor", 
+        "gatsby", "blazor", "uikit"
     ],
     "databases": [
-        "MySQL", "PostgreSQL", "MongoDB", "Oracle", "SQL Server", "SQLite", "Redis", 
-        "Cassandra", "MariaDB", "Elasticsearch"
+        "mysql", "postgresql", "postgres", "mongodb", "oracle", "sql server", 
+        "sqlserver", "ms sql", "ms-sql", "sqlite", "redis", "cassandra", "mariadb", 
+        "elasticsearch", "db2", "couchdb", "dynamodb", "neo4j", "influxdb", "hbase", 
+        "firebase", "firestore", "cockroachdb", "memcached"
     ],
     "tools": [
-        "Git", "Docker", "Kubernetes", "Jenkins", "AWS", "Azure", "GCP", 
-        "TensorFlow", "PyTorch", "Postman", "Visual Studio Code", "IntelliJ IDEA", 
-        "Eclipse", "JIRA", "Slack"
+        "git", "docker", "kubernetes", "jenkins", "aws", "azure", "gcp", 
+        "google cloud platform", "tensorflow", "pytorch", "postman", "visual studio code", 
+        "vs code", "intellij idea", "intellij", "eclipse", "jira", "slack", "bitbucket", 
+        "circleci", "travisci", "heroku", "rancher", "openshift", "gitlab", "kibana", 
+        "airflow", "hadoop", "jupyter", "databricks", "zepl"
     ],
     "cloud_platforms": [
-        "AWS", "Azure", "Google Cloud Platform", "IBM Cloud", "Oracle Cloud"
+        "aws", "azure", "google cloud platform", "gcp", "ibm cloud", "oracle cloud", 
+        "alibaba cloud", "digitalocean", "linode", "rackspace", "cloudflare"
     ],
     "devops_tools": [
-        "Jenkins", "Ansible", "Terraform", "Puppet", "Chef", "Nagios", 
-        "Prometheus", "Grafana"
+        "jenkins", "ansible", "terraform", "terraform cloud", "puppet", "chef", "nagios", 
+        "prometheus", "prom", "grafana", "splunk", "docker swarm", "saltstack", 
+        "new relic", "elk stack", "zabbix"
+    ],
+    "frontend_technologies": [
+        "html", "css", "bootstrap", "tailwind css", "materialize", "bulma", "foundation", 
+        "semantic ui", "sass", "less", "stylus"
     ]
+
 }
 
 class NERProcessor:
-    def __init__(self, logger, mongo_uri = '', db_name= '', collection_name = '', save_to_mongo=True):
-        """
-        Initializes the NERProcessor with the provided logger, MongoDB connection details,
-        and the predefined NERArrays data.
-
-        :param logger: Logger object for logging information and errors.
-        :param mongo_uri: MongoDB connection URI.
-        :param db_name: Name of the MongoDB database.
-        :param collection_name: Name of the MongoDB collection.
-        """
-
-        # Assign the injected logger
+    def __init__(self, logger, mongo_uri='', db_name='', collection_name='', save_to_mongo=True):
+        """Initializes the NERProcessor with the provided logger and MongoDB connection details."""
         self.log = logger
-        self.save_to_mongo = save_to_mongo  # New flag
-        # Initialize MongoDB connection only if save_to_mongo is True
+        self.save_to_mongo = save_to_mongo
         if self.save_to_mongo:
             try:
                 self.client = MongoClient(mongo_uri)
@@ -81,61 +85,40 @@ class NERProcessor:
             raise e
 
         # Assign NERArrays data
-        try:
-            ner_data = NERArrays  # Use the predefined NERArrays dictionary
-            # Extract skills and links
-            self.skill_categories = {
-                "programming_languages": ner_data.get("programming_languages", []),
-                "frameworks": ner_data.get("frameworks", []),
-                "databases": ner_data.get("databases", []),
-                "tools": ner_data.get("tools", []),
-                "cloud_platforms": ner_data.get("cloud_platforms", []),
-                "devops_tools": ner_data.get("devops_tools", [])
-            }
-            self.external_links_categories = ner_data.get("external_links", {})
-            self.social_links_categories = ner_data.get("social_links", {})
-            self.log.info("Loaded NERArrays data directly from the code.")
-        except Exception as e:
-            self.log.error(f"Failed to assign NERArrays data: {e}")
-            raise e
+        self.skill_categories = {
+            "programming_languages": NERArrays["programming_languages"],
+            "frameworks": NERArrays["frameworks"],
+            "databases": NERArrays["databases"],
+            "tools": NERArrays["tools"],
+            "cloud_platforms": NERArrays["cloud_platforms"],
+            "devops_tools": NERArrays["devops_tools"],
+            "frontend_technologies": NERArrays["frontend_technologies"]
+        }
+        self.external_links_categories = NERArrays["external_links"]
+        self.social_links_categories = NERArrays["social_links"]
+        self.log.info("Loaded NERArrays data directly from the code.")
 
         # Initialize PhraseMatcher for skills
-        try:
-            self.skill_matcher = PhraseMatcher(self.nlp.vocab, attr="LOWER")
-            for category, patterns in self.skill_categories.items():
-                patterns = [self.nlp.make_doc(text) for text in patterns]
-                self.skill_matcher.add(category, patterns)
-            self.log.info("Initialized PhraseMatcher with skill patterns.")
-        except Exception as e:
-            self.log.error(f"Failed to initialize PhraseMatcher: {e}")
-            raise e
+        self.skill_matcher = PhraseMatcher(self.nlp.vocab, attr="LOWER")
+        for category, patterns in self.skill_categories.items():
+            patterns = [self.nlp.make_doc(text) for text in patterns]
+            self.skill_matcher.add(category, patterns)
+        self.log.info("Initialized PhraseMatcher with skill patterns.")
 
         # Precompile regex patterns for emails, phones, and URLs
-        self.email_regex = re.compile(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}')
-        self.phone_regex = re.compile(r'\b\d{10}\b|\+\d{1,3}\s?\d{1,14}\b')
-        
-        self.url_regex = re.compile(r'(?P<url>https?://[^\s]+)')
+        self.email_regex = re.compile(r'[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}')
+        self.phone_regex = re.compile(r"(?:\+?\d{1,3}[\s-]?)?(?:\(\d{3}\)|\d{3})[\s-]?\d{2,4}[\s-]?\d{2,4}")
+        self.url_regex = re.compile(r'(https?://[^\s]+)', re.IGNORECASE)
         self.log.info("Precompiled regex patterns for emails, phones, and URLs.")
 
     def preprocess_text(self, text):
-        """
-        Cleans the extracted text by removing special characters, newlines, and extra spaces.
-
-        :param text: Raw text extracted from the resume.
-        :return: Cleaned text.
-        """
+        """Cleans the extracted text by removing special characters, newlines, and extra spaces."""
         text = re.sub(r'\n+', ' ', text)  # Remove newlines
         text = re.sub(r'\s+', ' ', text)  # Remove extra spaces
-        return text.strip()
+        return text.strip().lower()  # Normalize to lowercase
 
     def extract_entities(self, text):
-        """
-        Extracts entities from the preprocessed text, including personal details,
-        skills, certifications, and links.
-
-        :param text: Cleaned resume text.
-        :return: Dictionary containing extracted entities.
-        """
+        """Extracts entities from the preprocessed text, including personal details, skills, certifications, and links."""
         doc = self.nlp(text)
         entities = {
             "name": None,
@@ -147,36 +130,38 @@ class NERProcessor:
             "external_links": {key: [] for key in self.external_links_categories.keys()},
             "social_links": {key: [] for key in self.social_links_categories.keys()}
         }
-        
-        # Define educational keywords for heuristic
-        educational_keywords = ["University", "College", "Institute", "Academy", "School"]
 
-        # Extract general entities using SpaCy's NER
+        # Define educational keywords for heuristic
+        educational_keywords = ["university", "college", "institute", "academy", "school"]
+
+        # Attempt to extract name from PERSON entities
+        possible_names = [ent.text for ent in doc.ents if ent.label_ == "PERSON"]
+        if possible_names:
+            entities["name"] = ' '.join(possible_names).lower()  # Normalize name to lowercase
+            self.log.debug(f"Extracted name: {entities['name']}")
+
+        # If no name is found, use a heuristic based on the first few words
+        if not entities["name"]:
+            words = text.split()
+            if len(words) >= 2:
+                entities["name"] = f"{words[0]} {words[1]}".lower()  # Using the first two words as a potential name
+                self.log.debug(f"Fallback name extracted: {entities['name']}")
+
+        # Extract educational institutions
         for ent in doc.ents:
-            if ent.label_ == "PERSON" and not entities["name"]:
-                entities["name"] = ent.text
-                self.log.debug(f"Extracted name: {ent.text}")
-            elif ent.label_ == "ORG":
-                # Heuristic: Check if the organization is an educational institution
-                if any(keyword.lower() in ent.text.lower() for keyword in educational_keywords):
-                    entities["education"].append(ent.text)
-                    self.log.debug(f"Extracted education: {ent.text}")
-                else:
-                    # Optionally, handle companies separately if needed
-                    self.log.debug(f"Found organization (not education): {ent.text}")
-            elif ent.label_ == "GPE":
-                # Handle location if needed
-                self.log.debug(f"Found geopolitical entity: {ent.text}")
+            if ent.label_ == "ORG" and any(keyword in ent.text.lower() for keyword in educational_keywords):
+                entities["education"].append(ent.text.lower())  # Normalize education to lowercase
+                self.log.debug(f"Extracted education: {ent.text}")
 
         # Extract email and phone using regex
         email_match = self.email_regex.search(text)
         phone_match = self.phone_regex.search(text)
 
         if email_match:
-            entities["email"] = email_match.group()
+            entities["email"] = email_match.group().lower()  # Normalize email to lowercase
             self.log.debug(f"Extracted email: {entities['email']}")
         if phone_match:
-            entities["phone"] = phone_match.group()
+            entities["phone"] = phone_match.group()  # Phone number normalization may not be needed
             self.log.debug(f"Extracted phone: {entities['phone']}")
 
         # Extract skills using PhraseMatcher
@@ -198,52 +183,37 @@ class NERProcessor:
         return entities
 
     def extract_skills(self, text):
-        """
-        Extracts and categorizes skills from the text using PhraseMatcher.
-
-        :param text: Cleaned resume text.
-        :return: Dictionary of categorized skills.
-        """
+        """Extracts and categorizes skills from the text using PhraseMatcher."""
         doc = self.nlp(text)
         matches = self.skill_matcher(doc)
         skills = {category: [] for category in self.skill_categories}
 
         for match_id, start, end in matches:
             category = self.nlp.vocab.strings[match_id]
-            skill = doc[start:end].text
+            skill = doc[start:end].text.strip().lower()  # Convert skill to lowercase
             if skill not in skills[category]:
                 skills[category].append(skill)
                 self.log.debug(f"Extracted skill - Category: {category}, Skill: {skill}")
-        
+
         return skills
 
     def extract_certifications(self, text):
-        """
-        Extracts certifications from the text using predefined regex patterns.
-
-        :param text: Cleaned resume text.
-        :return: List of extracted certifications.
-        """
+        """Extracts certifications from the text using predefined regex patterns."""
         certifications = []
         certification_patterns = [
-            r'Certified\s+[A-Za-z\s]+',
-            r'Certification\s+in\s+[A-Za-z\s]+',
-            r'[A-Za-z\s]+ Certification'
+            r'certified\s+[a-z\s]+',
+            r'certification\s+in\s+[a-z\s]+',
+            r'[a-z\s]+ certification'
         ]
         for pattern in certification_patterns:
             matches = re.findall(pattern, text, re.IGNORECASE)
-            certifications.extend(matches)
+            certifications.extend([cert.lower() for cert in matches])  # Normalize certifications to lowercase
             if matches:
                 self.log.debug(f"Extracted certifications with pattern '{pattern}': {matches}")
         return certifications
 
     def extract_external_links(self, text):
-        """
-        Extracts and categorizes external links (e.g., GitHub, LinkedIn) from the text.
-
-        :param text: Cleaned resume text.
-        :return: Dictionary of categorized external links.
-        """
+        """Extracts and categorizes external links (e.g., GitHub, LinkedIn) from the text."""
         urls = self.url_regex.findall(text)
         categorized_links = {key: [] for key in self.external_links_categories.keys()}
 
@@ -257,12 +227,7 @@ class NERProcessor:
         return categorized_links
 
     def extract_social_links(self, text):
-        """
-        Extracts and categorizes social links (e.g., Instagram, Twitter) from the text.
-
-        :param text: Cleaned resume text.
-        :return: Dictionary of categorized social links.
-        """
+        """Extracts and categorizes social links (e.g., Instagram, Twitter) from the text."""
         urls = self.url_regex.findall(text)
         categorized_social_links = {key: [] for key in self.social_links_categories.keys()}
 
@@ -276,9 +241,7 @@ class NERProcessor:
         return categorized_social_links
 
     def store_in_mongodb(self, resume_data):
-        """
-        Stores the extracted resume data in MongoDB. Only called if save_to_mongo is True.
-        """
+        """Stores the extracted resume data in MongoDB. Only called if save_to_mongo is True."""
         if self.save_to_mongo:
             try:
                 self.collection.update_one(
@@ -293,12 +256,7 @@ class NERProcessor:
             self.log.debug("Skipping MongoDB storage as save_to_mongo is False.")
 
     def process_resume(self, text):
-        """
-        Processes the raw resume text by cleaning it, extracting entities, and storing the data in MongoDB.
-
-        :param text: Raw text extracted from the resume.
-        :return: Dictionary containing all extracted entities.
-        """
+        """Processes the raw resume text by cleaning it, extracting entities, and storing the data in MongoDB."""
         cleaned_text = self.preprocess_text(text)
         self.log.debug("Preprocessed resume text.")
         entities = self.extract_entities(cleaned_text)

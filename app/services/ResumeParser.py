@@ -26,7 +26,7 @@ class ResumeProcessor:
             raise ValueError(f"Unsupported file format: {file_extension}")
 
         # Remove the /n
-        text = text.replace("\n", " ")
+        text = text.replace("\n", " \n ")
         
         return text
 
