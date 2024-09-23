@@ -6,12 +6,13 @@ import os
 import shutil
 import uuid
 from pathlib import Path
-from services import Scraper, OCRProcessor, ResumeProcessor
+from services import Scraper, OCRProcessor, ResumeProcessor, NERProcessor
 
 from ultra_logger import Logger  # Assuming you're using ultra_logger
 # Initialize logger
 logger = Logger(log_file="resume_processing.log", log_name="Resume processing")  # Example logger
 resume_processor = ResumeProcessor(logger)  # Initialize the ResumeProcessor
+ner_processor = NERProcessor(logger, save_to_mongo= False)
 
 # Setting up the router
 router = APIRouter()
@@ -99,10 +100,21 @@ async def extract_data(file: UploadFile):
             text = resume_processor.extract_text(file_path)
         else:
             raise HTTPException(status_code=400, detail="Unsupported file format. Only PDF, DOC, and DOCX are supported.")
+        
 
+        # Step 2: Process the resume using NERProcessor
+        entities = ner_processor.process_resume(text)
+
+        # Return the extracted entities as a JSON response
+        return {
+            "status": "success",
+            "data": entities
+        }
+    
         # Optional steps for further processing (commented out for now)
         # Step 2: Preprocess the extracted text
         # preprocessed_text = preprocess_text(text)
+
 
         # Step 3: Extract key entities using NER
         # entities = extract_entities(preprocessed_text)
@@ -114,10 +126,6 @@ async def extract_data(file: UploadFile):
         # save_to_database(structured_data)
 
         # Return the extracted resume text as a JSON response
-        return {
-            "status": "success",
-            "data": text
-        }
 
     except HTTPException as http_exc:
         raise http_exc

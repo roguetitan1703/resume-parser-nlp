@@ -2,3 +2,753 @@
 2024-09-20 00:36:15 - INFO- Reading DOCX: uploads\9b6f415b-0e93-4116-9aa7-2fce8ce43478.docx
 2024-09-20 00:37:03 - INFO- Reading DOCX: uploads\b5ed8600-5ca6-4dff-86e6-31ce62d9954a.docx
 2024-09-20 00:37:10 - INFO- Reading PDF: uploads\2ca4dea4-d7aa-415a-9cd0-3c77b706c098.pdf
+2024-09-23 15:07:58 - INFO- Reading PDF: uploads\a4035fcb-b97a-4b9c-8897-c960c468ed97.pdf
+2024-09-23 17:00:23 - ERROR- Failed to load SpaCy model: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+2024-09-23 17:02:50 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 17:02:50 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 17:02:50 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 17:02:50 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 17:02:54 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 17:02:54 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 17:02:54 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 17:02:54 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 17:03:11 - INFO- Reading PDF: uploads\8f900ab6-e13c-4a56-9edb-6efccbaa6f5a.pdf
+2024-09-23 17:03:11 - DEBUG- Preprocessed resume text.
+2024-09-23 17:03:11 - DEBUG- Extracted name: Singh Chandel
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): CSE
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:03:11 - DEBUG- Extracted education: MIT World Peace University
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:03:11 - DEBUG- Found geopolitical entity: India
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): Quantitative Aptitude
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): Verbal Ability
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): TypeScript
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): CSS
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): PHP( Wordpress
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): React -Native , React
+2024-09-23 17:03:11 - DEBUG- Found geopolitical entity: Node
+2024-09-23 17:03:11 - DEBUG- Found geopolitical entity: Bootstrap
+2024-09-23 17:03:11 - DEBUG- Found geopolitical entity: Django
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): Vscod
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): SQLite
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): Wordpress
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): CSI
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): Chapter
+2024-09-23 17:03:11 - DEBUG- Found geopolitical entity: Texephyr
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:03:11 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:03:11 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 17:03:11 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 17:03:11 - DEBUG- Extracted phone: +91
+2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
+2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: tools, Skill: Git
+2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
+2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
+2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
+2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
+2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: frameworks, Skill: React
+2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
+2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
+2024-09-23 17:03:11 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
+2024-09-23 17:03:11 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 17:09:25 - INFO- Reading PDF: uploads\1386dfe4-96e7-41c0-84d5-6d346a73b561.pdf
+2024-09-23 17:09:26 - DEBUG- Preprocessed resume text.
+2024-09-23 17:09:26 - DEBUG- Extracted name: Singh Chandel
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): CSE
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:09:26 - DEBUG- Extracted education: MIT World Peace University
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:09:26 - DEBUG- Found geopolitical entity: India
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): Quantitative Aptitude
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): Verbal Ability
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): TypeScript
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): CSS
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): PHP( Wordpress
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): React -Native , React
+2024-09-23 17:09:26 - DEBUG- Found geopolitical entity: Node
+2024-09-23 17:09:26 - DEBUG- Found geopolitical entity: Bootstrap
+2024-09-23 17:09:26 - DEBUG- Found geopolitical entity: Django
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): Vscod
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): SQLite
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): Wordpress
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): CSI
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): Chapter
+2024-09-23 17:09:26 - DEBUG- Found geopolitical entity: Texephyr
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:09:26 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:09:26 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 17:09:26 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 17:09:26 - DEBUG- Extracted phone: +91
+2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
+2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: tools, Skill: Git
+2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
+2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
+2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
+2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
+2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: frameworks, Skill: React
+2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
+2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
+2024-09-23 17:09:26 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
+2024-09-23 17:09:26 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 17:09:46 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 17:09:46 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 17:09:46 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 17:09:46 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 17:09:46 - INFO- Reading PDF: uploads\994295b1-a684-479f-a148-938bb6ab073f.pdf
+2024-09-23 17:09:46 - DEBUG- Preprocessed resume text.
+2024-09-23 17:09:46 - DEBUG- Extracted name: Singh Chandel
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): CSE
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:09:46 - DEBUG- Extracted education: MIT World Peace University
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:09:46 - DEBUG- Found geopolitical entity: India
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): Quantitative Aptitude
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): Verbal Ability
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): TypeScript
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): CSS
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): PHP( Wordpress
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): React -Native , React
+2024-09-23 17:09:46 - DEBUG- Found geopolitical entity: Node
+2024-09-23 17:09:46 - DEBUG- Found geopolitical entity: Bootstrap
+2024-09-23 17:09:46 - DEBUG- Found geopolitical entity: Django
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): Vscod
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): SQLite
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): Wordpress
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): CSI
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): Chapter
+2024-09-23 17:09:46 - DEBUG- Found geopolitical entity: Texephyr
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:09:46 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:09:46 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 17:09:46 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 17:09:46 - DEBUG- Extracted phone: 9685890401
+2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
+2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: tools, Skill: Git
+2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
+2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
+2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
+2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
+2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: frameworks, Skill: React
+2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
+2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
+2024-09-23 17:09:46 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
+2024-09-23 17:09:46 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 17:09:46 - INFO- Reading PDF: uploads\1cb9bbad-acd6-45c9-9d6b-24128f0ffeb5.pdf
+2024-09-23 17:09:46 - DEBUG- Preprocessed resume text.
+2024-09-23 17:09:47 - DEBUG- Extracted name: Singh Chandel
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): CSE
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:09:47 - DEBUG- Extracted education: MIT World Peace University
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:09:47 - DEBUG- Found geopolitical entity: India
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): Quantitative Aptitude
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): Verbal Ability
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): TypeScript
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): CSS
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): PHP( Wordpress
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): React -Native , React
+2024-09-23 17:09:47 - DEBUG- Found geopolitical entity: Node
+2024-09-23 17:09:47 - DEBUG- Found geopolitical entity: Bootstrap
+2024-09-23 17:09:47 - DEBUG- Found geopolitical entity: Django
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): Vscod
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): SQLite
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): Wordpress
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): CSI
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): Chapter
+2024-09-23 17:09:47 - DEBUG- Found geopolitical entity: Texephyr
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:09:47 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:09:47 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 17:09:47 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 17:09:47 - DEBUG- Extracted phone: 9685890401
+2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
+2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: tools, Skill: Git
+2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
+2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
+2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
+2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
+2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: frameworks, Skill: React
+2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
+2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
+2024-09-23 17:09:47 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
+2024-09-23 17:09:47 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 17:23:19 - ERROR- Failed to load SpaCy model: [E050] Can't find model 'en_core_web_lg'. It doesn't seem to be a Python package or a valid path to a data directory.
+2024-09-23 17:25:21 - INFO- Loaded SpaCy model 'en_core_web_lg'.
+2024-09-23 17:25:21 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 17:25:21 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 17:25:21 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 17:25:27 - INFO- Loaded SpaCy model 'en_core_web_lg'.
+2024-09-23 17:25:27 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 17:25:27 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 17:25:27 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 17:25:38 - INFO- Reading PDF: uploads\10c4a5e6-bd72-448e-9ca9-d2cd4adbfd0b.pdf
+2024-09-23 17:25:38 - DEBUG- Preprocessed resume text.
+2024-09-23 17:25:38 - DEBUG- Extracted name: Singh Chandel
+2024-09-23 17:25:38 - DEBUG- Found organization (not education): Maharashtra LinkedIn
+2024-09-23 17:25:38 - DEBUG- Found organization (not education): CSE
+2024-09-23 17:25:38 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:25:38 - DEBUG- Extracted education: MIT World Peace University
+2024-09-23 17:25:38 - DEBUG- Found organization (not education): ethi c
+2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: Json
+2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: India
+2024-09-23 17:25:38 - DEBUG- Found organization (not education): TML
+2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: React
+2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: Node
+2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: Django
+2024-09-23 17:25:38 - DEBUG- Found organization (not education): Vscod
+2024-09-23 17:25:38 - DEBUG- Found organization (not education): SQLite
+2024-09-23 17:25:38 - DEBUG- Found organization (not education): Wordpress
+2024-09-23 17:25:38 - DEBUG- Found organization (not education): DYP
+2024-09-23 17:25:38 - DEBUG- Found organization (not education): G Ideathon
+2024-09-23 17:25:38 - DEBUG- Found organization (not education): DSA
+2024-09-23 17:25:38 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:25:38 - DEBUG- Found organization (not education): the CSI MIT
+2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: Texephyr
+2024-09-23 17:25:38 - DEBUG- Extracted education: MIT World Peace University Course
+2024-09-23 17:25:38 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: Github
+2024-09-23 17:25:38 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 17:25:38 - DEBUG- Extracted phone: 9685890401
+2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
+2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: tools, Skill: Git
+2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
+2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
+2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
+2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
+2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: frameworks, Skill: React
+2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
+2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
+2024-09-23 17:25:39 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
+2024-09-23 17:25:39 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 17:26:27 - INFO- Reading PDF: uploads\6ebebdd1-9ced-4aa4-aeb1-fafedcacf89c.pdf
+2024-09-23 17:26:27 - DEBUG- Preprocessed resume text.
+2024-09-23 17:26:27 - DEBUG- Extracted name: Singh Chandel
+2024-09-23 17:26:27 - DEBUG- Found organization (not education): Maharashtra LinkedIn
+2024-09-23 17:26:27 - DEBUG- Found organization (not education): CSE
+2024-09-23 17:26:27 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:26:27 - DEBUG- Extracted education: MIT World Peace University
+2024-09-23 17:26:27 - DEBUG- Found organization (not education): ethi c
+2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: Json
+2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: India
+2024-09-23 17:26:27 - DEBUG- Found organization (not education): TML
+2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: React
+2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: Node
+2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: Django
+2024-09-23 17:26:27 - DEBUG- Found organization (not education): Vscod
+2024-09-23 17:26:27 - DEBUG- Found organization (not education): SQLite
+2024-09-23 17:26:27 - DEBUG- Found organization (not education): Wordpress
+2024-09-23 17:26:27 - DEBUG- Found organization (not education): DYP
+2024-09-23 17:26:27 - DEBUG- Found organization (not education): G Ideathon
+2024-09-23 17:26:27 - DEBUG- Found organization (not education): DSA
+2024-09-23 17:26:27 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:26:27 - DEBUG- Found organization (not education): the CSI MIT
+2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: Texephyr
+2024-09-23 17:26:27 - DEBUG- Extracted education: MIT World Peace University Course
+2024-09-23 17:26:27 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: Github
+2024-09-23 17:26:27 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 17:26:27 - DEBUG- Extracted phone: 9685890401
+2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
+2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: tools, Skill: Git
+2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
+2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
+2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
+2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
+2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: frameworks, Skill: React
+2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
+2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
+2024-09-23 17:26:27 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
+2024-09-23 17:26:27 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 17:27:14 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 17:27:14 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 17:27:14 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 17:27:14 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 17:27:28 - INFO- Reading PDF: uploads\ad9f3cf1-7c33-4595-9afd-7fc5d8c3eb9d.pdf
+2024-09-23 17:27:28 - DEBUG- Preprocessed resume text.
+2024-09-23 17:27:28 - DEBUG- Extracted name: Singh Chandel
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): CSE
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:27:28 - DEBUG- Extracted education: MIT World Peace University
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:27:28 - DEBUG- Found geopolitical entity: India
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): Quantitative Aptitude
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): Verbal Ability
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): TypeScript
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): CSS
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): PHP( Wordpress
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): React -Native , React
+2024-09-23 17:27:28 - DEBUG- Found geopolitical entity: Node
+2024-09-23 17:27:28 - DEBUG- Found geopolitical entity: Bootstrap
+2024-09-23 17:27:28 - DEBUG- Found geopolitical entity: Django
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): Vscod
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): SQLite
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): Wordpress
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): CSI
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): Chapter
+2024-09-23 17:27:28 - DEBUG- Found geopolitical entity: Texephyr
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:27:28 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:27:28 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 17:27:28 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 17:27:28 - DEBUG- Extracted phone: 9685890401
+2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
+2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: tools, Skill: Git
+2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
+2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
+2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
+2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
+2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: frameworks, Skill: React
+2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
+2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
+2024-09-23 17:27:28 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
+2024-09-23 17:27:28 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 17:37:47 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 17:37:47 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 17:37:48 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 17:37:48 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 17:38:08 - INFO- Reading PDF: uploads\bd3b2e38-3c40-479a-b1e5-1b319d76a3a6.pdf
+2024-09-23 17:38:08 - DEBUG- Preprocessed resume text.
+2024-09-23 17:38:08 - DEBUG- Extracted name: Singh Chandel
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): CSE
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:38:08 - DEBUG- Extracted education: MIT World Peace University
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:38:08 - DEBUG- Found geopolitical entity: India
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): Quantitative Aptitude
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): Verbal Ability
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): TypeScript
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): CSS
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): PHP( Wordpress
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): React -Native , React
+2024-09-23 17:38:08 - DEBUG- Found geopolitical entity: Node
+2024-09-23 17:38:08 - DEBUG- Found geopolitical entity: Bootstrap
+2024-09-23 17:38:08 - DEBUG- Found geopolitical entity: Django
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): Vscod
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): SQLite
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): Wordpress
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): CSI
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): Chapter
+2024-09-23 17:38:08 - DEBUG- Found geopolitical entity: Texephyr
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:38:08 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:38:08 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 17:38:08 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 17:38:08 - DEBUG- Extracted phone: 9685890401
+2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
+2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: tools, Skill: Git
+2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
+2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
+2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
+2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
+2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: frameworks, Skill: React
+2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
+2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
+2024-09-23 17:38:08 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
+2024-09-23 17:38:08 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 17:38:17 - INFO- Reading PDF: uploads\6f3865a9-6f78-4b53-becf-ee8779f9293b.pdf
+2024-09-23 17:38:17 - DEBUG- Preprocessed resume text.
+2024-09-23 17:38:18 - DEBUG- Extracted name: Singh Chandel
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): CSE
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:38:18 - DEBUG- Extracted education: MIT World Peace University
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:38:18 - DEBUG- Found geopolitical entity: India
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): Quantitative Aptitude
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): Verbal Ability
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): TypeScript
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): CSS
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): PHP( Wordpress
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): React -Native , React
+2024-09-23 17:38:18 - DEBUG- Found geopolitical entity: Node
+2024-09-23 17:38:18 - DEBUG- Found geopolitical entity: Bootstrap
+2024-09-23 17:38:18 - DEBUG- Found geopolitical entity: Django
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): Vscod
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): SQLite
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): Wordpress
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): CSI
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): Chapter
+2024-09-23 17:38:18 - DEBUG- Found geopolitical entity: Texephyr
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:38:18 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:38:18 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 17:38:18 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 17:38:18 - DEBUG- Extracted phone: 9685890401
+2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
+2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: tools, Skill: Git
+2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
+2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
+2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
+2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
+2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: frameworks, Skill: React
+2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
+2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
+2024-09-23 17:38:18 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
+2024-09-23 17:38:18 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 17:41:45 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 17:41:45 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 17:41:45 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 17:41:45 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 17:42:21 - INFO- Reading PDF: uploads\a2887cda-25ff-4d36-b317-464861cb6cf6.pdf
+2024-09-23 17:42:26 - INFO- Reading PDF: uploads\5d63aad4-d46e-48cb-a050-8c4ca78a426e.pdf
+2024-09-23 17:44:40 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 17:44:40 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 17:44:40 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 17:44:40 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 17:44:43 - INFO- Reading PDF: uploads\d20cdf83-f356-401d-83c2-edda39ea233b.pdf
+2024-09-23 17:44:43 - DEBUG- Preprocessed resume text.
+2024-09-23 17:44:43 - DEBUG- Extracted name: Singh Chandel
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): CSE
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:44:43 - DEBUG- Extracted education: MIT World Peace University
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:44:43 - DEBUG- Found geopolitical entity: India
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): CAT
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): Quantitative Aptitude
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): Verbal Ability
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): TypeScript
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): CSS
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): PHP( Wordpress
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): React -Native , React
+2024-09-23 17:44:43 - DEBUG- Found geopolitical entity: Node
+2024-09-23 17:44:43 - DEBUG- Found geopolitical entity: Bootstrap
+2024-09-23 17:44:43 - DEBUG- Found geopolitical entity: Django
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): Vscod
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): SQLite
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): Wordpress
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): CSI
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): Chapter
+2024-09-23 17:44:43 - DEBUG- Found geopolitical entity: Texephyr
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 17:44:43 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 17:44:43 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 17:44:43 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 17:44:43 - DEBUG- Extracted phone: +91
+2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
+2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: tools, Skill: Git
+2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
+2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
+2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
+2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
+2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: frameworks, Skill: React
+2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
+2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
+2024-09-23 17:44:43 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
+2024-09-23 17:44:43 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 17:54:56 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 17:54:56 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 17:54:56 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 17:54:56 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 17:54:58 - INFO- Reading PDF: uploads\b48a67b6-1060-4317-a3b0-3189c430a318.pdf
+2024-09-23 17:54:58 - DEBUG- Preprocessed resume text.
+2024-09-23 17:54:58 - DEBUG- Found geopolitical entity: singh chandel
+2024-09-23 17:54:58 - DEBUG- Extracted education: mit world peace university
+2024-09-23 17:54:58 - DEBUG- Found geopolitical entity: india
+2024-09-23 17:54:58 - DEBUG- Found geopolitical entity: node
+2024-09-23 17:54:58 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 17:54:58 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 17:54:58 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 17:54:58 - DEBUG- Extracted phone: 9685890401
+2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
+2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: tools, Skill: git
+2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
+2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: frameworks, Skill: django
+2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
+2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
+2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: frameworks, Skill: react
+2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: databases, Skill: mysql
+2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
+2024-09-23 17:54:59 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
+2024-09-23 17:54:59 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 17:56:13 - INFO- Reading PDF: uploads\9a49f052-cb0a-4678-b82d-01716e96a4fe.pdf
+2024-09-23 17:56:13 - DEBUG- Preprocessed resume text.
+2024-09-23 17:56:13 - DEBUG- Found geopolitical entity: singh chandel
+2024-09-23 17:56:13 - DEBUG- Extracted education: mit world peace university
+2024-09-23 17:56:13 - DEBUG- Found geopolitical entity: india
+2024-09-23 17:56:13 - DEBUG- Found geopolitical entity: node
+2024-09-23 17:56:13 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 17:56:13 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 17:56:13 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 17:56:13 - DEBUG- Extracted phone: 9685890401
+2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
+2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: tools, Skill: git
+2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
+2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: frameworks, Skill: django
+2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
+2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
+2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: frameworks, Skill: react
+2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: databases, Skill: mysql
+2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
+2024-09-23 17:56:14 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
+2024-09-23 17:56:14 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 18:02:29 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 18:02:29 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 18:02:29 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 18:02:29 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 18:07:57 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 18:07:57 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 18:07:57 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 18:07:57 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 18:08:00 - INFO- Reading PDF: uploads\5bd6a24e-90ce-4878-b218-2df3b1136165.pdf
+2024-09-23 18:08:00 - DEBUG- Preprocessed resume text.
+2024-09-23 18:08:00 - DEBUG- Found geopolitical entity: singh chandel
+2024-09-23 18:08:00 - DEBUG- Extracted education: mit world peace university
+2024-09-23 18:08:00 - DEBUG- Found geopolitical entity: india
+2024-09-23 18:08:00 - DEBUG- Found geopolitical entity: node
+2024-09-23 18:08:00 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 18:08:00 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 18:08:00 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 18:08:00 - DEBUG- Extracted phone: +91
+2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
+2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: tools, Skill: git
+2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
+2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: frameworks, Skill: django
+2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
+2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
+2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: frameworks, Skill: react
+2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: databases, Skill: mysql
+2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
+2024-09-23 18:08:01 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
+2024-09-23 18:08:01 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 18:08:39 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 18:08:39 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 18:08:39 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 18:08:39 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 18:08:45 - INFO- Reading PDF: uploads\7b27aa3a-e309-4889-b247-daec2b2e85f5.pdf
+2024-09-23 18:08:45 - DEBUG- Preprocessed resume text.
+2024-09-23 18:08:45 - DEBUG- Extracted name: Singh Chandel
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): CSE
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 18:08:45 - DEBUG- Extracted education: MIT World Peace University
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): CAT
+2024-09-23 18:08:45 - DEBUG- Found geopolitical entity: India
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): CAT
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): Quantitative Aptitude
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): Verbal Ability
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): TypeScript
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): CSS
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): PHP( Wordpress
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): React -Native , React
+2024-09-23 18:08:45 - DEBUG- Found geopolitical entity: Node
+2024-09-23 18:08:45 - DEBUG- Found geopolitical entity: Bootstrap
+2024-09-23 18:08:45 - DEBUG- Found geopolitical entity: Django
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): Vscod
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): SQLite
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): Wordpress
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): CSI
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): Chapter
+2024-09-23 18:08:45 - DEBUG- Found geopolitical entity: Texephyr
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 18:08:45 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 18:08:45 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 18:08:45 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 18:08:45 - DEBUG- Extracted phone: +91
+2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
+2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: tools, Skill: Git
+2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
+2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
+2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
+2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
+2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: frameworks, Skill: React
+2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
+2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
+2024-09-23 18:08:45 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
+2024-09-23 18:08:45 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 18:09:48 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 18:09:48 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 18:09:48 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 18:09:48 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 18:11:18 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 18:11:18 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 18:11:18 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 18:11:18 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 18:11:22 - INFO- Reading PDF: uploads\4865b127-e004-453d-a545-08f0ca2de943.pdf
+2024-09-23 18:11:22 - DEBUG- Preprocessed resume text.
+2024-09-23 18:11:22 - DEBUG- Found geopolitical entity: singh chandel
+2024-09-23 18:11:22 - DEBUG- Extracted education: mit world peace university
+2024-09-23 18:11:22 - DEBUG- Found geopolitical entity: india
+2024-09-23 18:11:22 - DEBUG- Found geopolitical entity: node
+2024-09-23 18:11:22 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 18:11:22 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 18:11:22 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 18:11:22 - DEBUG- Extracted phone: +91
+2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
+2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: tools, Skill: git
+2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
+2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: frameworks, Skill: django
+2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
+2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
+2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: frameworks, Skill: react
+2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: databases, Skill: mysql
+2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
+2024-09-23 18:11:22 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
+2024-09-23 18:11:22 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 18:12:51 - INFO- Reading PDF: uploads\3dc02523-5d33-44af-a823-f3a08a7b474e.pdf
+2024-09-23 18:12:51 - DEBUG- Preprocessed resume text.
+2024-09-23 18:12:51 - DEBUG- Found geopolitical entity: singh chandel
+2024-09-23 18:12:51 - DEBUG- Extracted education: mit world peace university
+2024-09-23 18:12:51 - DEBUG- Found geopolitical entity: india
+2024-09-23 18:12:51 - DEBUG- Found geopolitical entity: node
+2024-09-23 18:12:51 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 18:12:51 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 18:12:51 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 18:12:51 - DEBUG- Extracted phone: +91
+2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
+2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: tools, Skill: git
+2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
+2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: frameworks, Skill: django
+2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
+2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
+2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: frameworks, Skill: react
+2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: databases, Skill: mysql
+2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
+2024-09-23 18:12:51 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
+2024-09-23 18:12:51 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 18:15:22 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 18:15:22 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 18:15:22 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 18:15:22 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 18:15:26 - INFO- Reading PDF: uploads\20a98fc6-6978-4b03-9eb3-7e161d1e525b.pdf
+2024-09-23 18:15:27 - DEBUG- Preprocessed resume text.
+2024-09-23 18:15:27 - DEBUG- Found geopolitical entity: singh chandel
+2024-09-23 18:15:27 - DEBUG- Extracted education: mit world peace university
+2024-09-23 18:15:27 - DEBUG- Found geopolitical entity: india
+2024-09-23 18:15:27 - DEBUG- Found geopolitical entity: node
+2024-09-23 18:15:27 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 18:15:27 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 18:15:27 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 18:15:27 - DEBUG- Extracted phone: +91
+2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
+2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: tools, Skill: git
+2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
+2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: frameworks, Skill: django
+2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
+2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
+2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: frameworks, Skill: react
+2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: databases, Skill: mysql
+2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
+2024-09-23 18:15:27 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
+2024-09-23 18:15:27 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 18:17:33 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 18:17:33 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 18:17:33 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 18:17:33 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 18:18:38 - INFO- Reading PDF: uploads\5babcf3b-4ee6-4bea-b6d1-4d444ac3d756.pdf
+2024-09-23 18:18:38 - DEBUG- Preprocessed resume text.
+2024-09-23 18:18:38 - DEBUG- Found geopolitical entity: singh chandel
+2024-09-23 18:18:38 - DEBUG- Extracted education: mit world peace university
+2024-09-23 18:18:38 - DEBUG- Found geopolitical entity: india
+2024-09-23 18:18:38 - DEBUG- Found geopolitical entity: node
+2024-09-23 18:18:38 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 18:18:38 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 18:18:38 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 18:18:38 - DEBUG- Extracted phone: +91
+2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
+2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: tools, Skill: git
+2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
+2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: frameworks, Skill: django
+2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
+2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
+2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: frameworks, Skill: react
+2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: databases, Skill: mysql
+2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
+2024-09-23 18:18:39 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
+2024-09-23 18:18:39 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 18:20:44 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 18:20:44 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 18:20:44 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 18:20:44 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 18:20:53 - INFO- Reading PDF: uploads\4f487918-e3e3-4c49-8bf6-28ea89ff895a.pdf
+2024-09-23 18:20:53 - DEBUG- Preprocessed resume text.
+2024-09-23 18:20:53 - DEBUG- Found geopolitical entity: singh chandel
+2024-09-23 18:20:53 - DEBUG- Extracted education: mit world peace university
+2024-09-23 18:20:53 - DEBUG- Found geopolitical entity: india
+2024-09-23 18:20:53 - DEBUG- Found geopolitical entity: node
+2024-09-23 18:20:53 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 18:20:53 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 18:20:53 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 18:20:53 - DEBUG- Extracted phone: +91
+2024-09-23 18:20:53 - DEBUG- Matches found: [(11245506510005629854, 88, 89), (5990950555658558085, 164, 165), (11245506510005629854, 188, 189), (1755351039129196717, 195, 196), (5990950555658558085, 250, 251), (11832406233511329643, 265, 266), (11245506510005629854, 270, 271), (5990950555658558085, 342, 343), (11245506510005629854, 349, 350), (11245506510005629854, 357, 358), (11245506510005629854, 361, 362), (11832406233511329643, 372, 373), (11832406233511329643, 375, 376), (11832406233511329643, 381, 382), (1755351039129196717, 408, 409), (1755351039129196717, 410, 411), (11245506510005629854, 568, 569)]
+2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
+2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: tools, Skill: git
+2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
+2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: frameworks, Skill: django
+2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
+2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
+2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: frameworks, Skill: react
+2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: databases, Skill: mysql
+2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
+2024-09-23 18:20:53 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
+2024-09-23 18:20:53 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
+2024-09-23 18:23:19 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-23 18:23:19 - INFO- Loaded NERArrays data directly from the code.
+2024-09-23 18:23:19 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-23 18:23:19 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-23 18:23:32 - INFO- Reading PDF: uploads\a7e1891d-2250-4e23-ad5b-edbe65c6dc59.pdf
+2024-09-23 18:23:32 - DEBUG- Preprocessed resume text.
+2024-09-23 18:23:32 - DEBUG- Extracted name: Singh Chandel
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): CSE
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 18:23:32 - DEBUG- Extracted education: MIT World Peace University
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): CAT
+2024-09-23 18:23:32 - DEBUG- Found geopolitical entity: India
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): CAT
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): Quantitative Aptitude
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): Verbal Ability
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): TypeScript
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): CSS
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): PHP( Wordpress
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): React -Native , React
+2024-09-23 18:23:32 - DEBUG- Found geopolitical entity: Node
+2024-09-23 18:23:32 - DEBUG- Found geopolitical entity: Bootstrap
+2024-09-23 18:23:32 - DEBUG- Found geopolitical entity: Django
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): Vscod
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): SQLite
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): Wordpress
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): CSI
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): Chapter
+2024-09-23 18:23:32 - DEBUG- Found geopolitical entity: Texephyr
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): AI & DS
+2024-09-23 18:23:32 - DEBUG- Found organization (not education): Hackerrank
+2024-09-23 18:23:32 - DEBUG- Found geopolitical entity: roguetitan
+2024-09-23 18:23:32 - DEBUG- Extracted email: omchandel1703@gmail.com
+2024-09-23 18:23:32 - DEBUG- Extracted phone: +91
+2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
+2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: tools, Skill: Git
+2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
+2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
+2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
+2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
+2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: frameworks, Skill: React
+2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
+2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
+2024-09-23 18:23:32 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
+2024-09-23 18:23:32 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
