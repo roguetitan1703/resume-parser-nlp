@@ -1,0 +1,4 @@
+2024-09-24 01:38:21 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-24 01:38:21 - INFO- Loaded NERArrays data directly from the code.
+2024-09-24 01:38:21 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-24 01:38:21 - INFO- Precompiled regex patterns for emails, phones, and URLs.
