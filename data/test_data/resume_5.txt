@@ -1,0 +1,34 @@
+resume_5 = """
+Olivia Martinez  
+oliviam@example.com  
++1-312-555-8888  
+Chicago, IL  
+
+PROFESSIONAL SUMMARY  
+Full-Stack Developer with expertise in building scalable applications using modern technologies like FastAPI, Flask, and PostgreSQL. Skilled in cloud computing with AWS.
+
+EXPERIENCE  
+Full-Stack Developer at Startup Solutions  
+May 2017 - Present  
+- Built and maintained RESTful APIs using FastAPI and Flask.  
+- Developed full-stack web applications using React.js and PostgreSQL.  
+- Deployed and managed AWS infrastructure for web hosting and data storage.  
+- Implemented CI/CD pipelines with Jenkins and Docker for continuous integration.
+
+EDUCATION  
+B.S. in Software Engineering  
+University of Chicago  
+Graduated: May 2016  
+
+SKILLS  
+Python, JavaScript, PHP  
+FastAPI, Flask, React.js  
+PostgreSQL, MongoDB, MySQL  
+AWS, Azure  
+Docker, Jenkins, Terraform  
+
+EXTERNAL LINKS  
+https://github.com/oliviamartinez  
+https://linkedin.com/in/oliviamartinez  
+https://leetcode.com/oliviamartinez  
+"""

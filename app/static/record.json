@@ -1,0 +1,48 @@
+{
+    "frameworks": [
+        "express",
+        "fastapi",
+        "django",
+        "react",
+        "node"
+    ],
+    "frontend_technologies": [
+        "less",
+        "html",
+        "css",
+        "bootstrap"
+    ],
+    "programming_languages": [
+        "r",
+        "python",
+        "javascript",
+        "typescript"
+    ],
+    "external_links": [
+        "linkedin",
+        "hackerrank",
+        "leetcode",
+        "github"
+    ],
+    "databases": [
+        "sql",
+        "mysql",
+        "mongodb",
+        "sqlite",
+        "postgresql"
+    ],
+    "tools": [
+        "jira",
+        "jupyter",
+        "git",
+        "azure",
+        "tensorflow",
+        "docker",
+        "aws",
+        "airflow"
+    ],
+    "cloud_platforms": [
+        "azure",
+        "aws"
+    ]
+}

@@ -1,0 +1,32 @@
+resume_3 = """
+Emily Taylor  
+emilyt@example.com  
++1-646-888-2222  
+New York, NY  
+
+PROFESSIONAL SUMMARY  
+Frontend Developer with strong expertise in modern web technologies like React, Vue.js, and Tailwind CSS. Dedicated to delivering high-quality, user-centric designs.
+
+EXPERIENCE  
+Frontend Developer at Creative Web Agency  
+January 2020 - Present  
+- Developed and maintained responsive UIs using React.js, Vue.js, and Angular.js.  
+- Designed and implemented CSS layouts using Tailwind CSS and Bootstrap.  
+- Collaborated with backend teams to integrate RESTful APIs with frontend components.
+
+EDUCATION  
+B.A. in Web Development  
+New York University  
+Graduated: May 2019  
+
+SKILLS  
+JavaScript, TypeScript  
+React.js, Vue.js, Tailwind CSS, Bootstrap  
+Angular.js, Express.js  
+Jenkins, GitLab CI  
+Visual Studio Code, Postman, Jira  
+
+EXTERNAL LINKS  
+https://github.com/emilytaylor  
+https://linkedin.com/in/emilytaylor  
+"""

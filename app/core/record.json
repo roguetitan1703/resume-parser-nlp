@@ -1,0 +1,23 @@
+{
+    "frameworks": [
+        "express"
+    ],
+    "frontend_technologies": [
+        "less"
+    ],
+    "programming_languages": [
+        "r",
+        "python"
+    ],
+    "external_links": [
+        "linkedin"
+    ],
+    "databases": [
+        "sql",
+        "mysql"
+    ],
+    "tools": [
+        "jira",
+        "jupyter"
+    ]
+}

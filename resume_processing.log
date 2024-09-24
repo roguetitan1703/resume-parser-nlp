@@ -1,1160 +1,208 @@
-2024-09-20 00:35:37 - INFO- Reading PDF: uploads\310bc4d1-53fa-4785-8e11-61a168a5b760.pdf
-2024-09-20 00:36:15 - INFO- Reading DOCX: uploads\9b6f415b-0e93-4116-9aa7-2fce8ce43478.docx
-2024-09-20 00:37:03 - INFO- Reading DOCX: uploads\b5ed8600-5ca6-4dff-86e6-31ce62d9954a.docx
-2024-09-20 00:37:10 - INFO- Reading PDF: uploads\2ca4dea4-d7aa-415a-9cd0-3c77b706c098.pdf
-2024-09-23 15:07:58 - INFO- Reading PDF: uploads\a4035fcb-b97a-4b9c-8897-c960c468ed97.pdf
-2024-09-23 17:00:23 - ERROR- Failed to load SpaCy model: [E050] Can't find model 'en_core_web_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
-2024-09-23 17:02:50 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 17:02:50 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 17:02:50 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 17:02:50 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 17:02:54 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 17:02:54 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 17:02:54 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 17:02:54 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 17:03:11 - INFO- Reading PDF: uploads\8f900ab6-e13c-4a56-9edb-6efccbaa6f5a.pdf
-2024-09-23 17:03:11 - DEBUG- Preprocessed resume text.
-2024-09-23 17:03:11 - DEBUG- Extracted name: Singh Chandel
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): CSE
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:03:11 - DEBUG- Extracted education: MIT World Peace University
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:03:11 - DEBUG- Found geopolitical entity: India
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): Quantitative Aptitude
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): Verbal Ability
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): TypeScript
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): CSS
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): PHP( Wordpress
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): React -Native , React
-2024-09-23 17:03:11 - DEBUG- Found geopolitical entity: Node
-2024-09-23 17:03:11 - DEBUG- Found geopolitical entity: Bootstrap
-2024-09-23 17:03:11 - DEBUG- Found geopolitical entity: Django
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): Vscod
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): SQLite
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): Wordpress
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): CSI
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): Chapter
-2024-09-23 17:03:11 - DEBUG- Found geopolitical entity: Texephyr
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:03:11 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:03:11 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 17:03:11 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 17:03:11 - DEBUG- Extracted phone: +91
-2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
-2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: tools, Skill: Git
-2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
-2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
-2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
-2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
-2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: frameworks, Skill: React
-2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
-2024-09-23 17:03:11 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
-2024-09-23 17:03:11 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
-2024-09-23 17:03:11 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 17:09:25 - INFO- Reading PDF: uploads\1386dfe4-96e7-41c0-84d5-6d346a73b561.pdf
-2024-09-23 17:09:26 - DEBUG- Preprocessed resume text.
-2024-09-23 17:09:26 - DEBUG- Extracted name: Singh Chandel
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): CSE
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:09:26 - DEBUG- Extracted education: MIT World Peace University
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:09:26 - DEBUG- Found geopolitical entity: India
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): Quantitative Aptitude
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): Verbal Ability
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): TypeScript
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): CSS
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): PHP( Wordpress
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): React -Native , React
-2024-09-23 17:09:26 - DEBUG- Found geopolitical entity: Node
-2024-09-23 17:09:26 - DEBUG- Found geopolitical entity: Bootstrap
-2024-09-23 17:09:26 - DEBUG- Found geopolitical entity: Django
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): Vscod
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): SQLite
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): Wordpress
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): CSI
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): Chapter
-2024-09-23 17:09:26 - DEBUG- Found geopolitical entity: Texephyr
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:09:26 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:09:26 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 17:09:26 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 17:09:26 - DEBUG- Extracted phone: +91
-2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
-2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: tools, Skill: Git
-2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
-2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
-2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
-2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
-2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: frameworks, Skill: React
-2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
-2024-09-23 17:09:26 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
-2024-09-23 17:09:26 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
-2024-09-23 17:09:26 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 17:09:46 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 17:09:46 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 17:09:46 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 17:09:46 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 17:09:46 - INFO- Reading PDF: uploads\994295b1-a684-479f-a148-938bb6ab073f.pdf
-2024-09-23 17:09:46 - DEBUG- Preprocessed resume text.
-2024-09-23 17:09:46 - DEBUG- Extracted name: Singh Chandel
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): CSE
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:09:46 - DEBUG- Extracted education: MIT World Peace University
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:09:46 - DEBUG- Found geopolitical entity: India
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): Quantitative Aptitude
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): Verbal Ability
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): TypeScript
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): CSS
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): PHP( Wordpress
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): React -Native , React
-2024-09-23 17:09:46 - DEBUG- Found geopolitical entity: Node
-2024-09-23 17:09:46 - DEBUG- Found geopolitical entity: Bootstrap
-2024-09-23 17:09:46 - DEBUG- Found geopolitical entity: Django
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): Vscod
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): SQLite
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): Wordpress
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): CSI
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): Chapter
-2024-09-23 17:09:46 - DEBUG- Found geopolitical entity: Texephyr
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:09:46 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:09:46 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 17:09:46 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 17:09:46 - DEBUG- Extracted phone: 9685890401
-2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
-2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: tools, Skill: Git
-2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
-2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
-2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
-2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
-2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: frameworks, Skill: React
-2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
-2024-09-23 17:09:46 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
-2024-09-23 17:09:46 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
-2024-09-23 17:09:46 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 17:09:46 - INFO- Reading PDF: uploads\1cb9bbad-acd6-45c9-9d6b-24128f0ffeb5.pdf
-2024-09-23 17:09:46 - DEBUG- Preprocessed resume text.
-2024-09-23 17:09:47 - DEBUG- Extracted name: Singh Chandel
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): CSE
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:09:47 - DEBUG- Extracted education: MIT World Peace University
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:09:47 - DEBUG- Found geopolitical entity: India
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): Quantitative Aptitude
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): Verbal Ability
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): TypeScript
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): CSS
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): PHP( Wordpress
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): React -Native , React
-2024-09-23 17:09:47 - DEBUG- Found geopolitical entity: Node
-2024-09-23 17:09:47 - DEBUG- Found geopolitical entity: Bootstrap
-2024-09-23 17:09:47 - DEBUG- Found geopolitical entity: Django
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): Vscod
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): SQLite
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): Wordpress
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): CSI
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): Chapter
-2024-09-23 17:09:47 - DEBUG- Found geopolitical entity: Texephyr
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:09:47 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:09:47 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 17:09:47 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 17:09:47 - DEBUG- Extracted phone: 9685890401
-2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
-2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: tools, Skill: Git
-2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
-2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
-2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
-2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
-2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: frameworks, Skill: React
-2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
-2024-09-23 17:09:47 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
-2024-09-23 17:09:47 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
-2024-09-23 17:09:47 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 17:23:19 - ERROR- Failed to load SpaCy model: [E050] Can't find model 'en_core_web_lg'. It doesn't seem to be a Python package or a valid path to a data directory.
-2024-09-23 17:25:21 - INFO- Loaded SpaCy model 'en_core_web_lg'.
-2024-09-23 17:25:21 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 17:25:21 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 17:25:21 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 17:25:27 - INFO- Loaded SpaCy model 'en_core_web_lg'.
-2024-09-23 17:25:27 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 17:25:27 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 17:25:27 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 17:25:38 - INFO- Reading PDF: uploads\10c4a5e6-bd72-448e-9ca9-d2cd4adbfd0b.pdf
-2024-09-23 17:25:38 - DEBUG- Preprocessed resume text.
-2024-09-23 17:25:38 - DEBUG- Extracted name: Singh Chandel
-2024-09-23 17:25:38 - DEBUG- Found organization (not education): Maharashtra LinkedIn
-2024-09-23 17:25:38 - DEBUG- Found organization (not education): CSE
-2024-09-23 17:25:38 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:25:38 - DEBUG- Extracted education: MIT World Peace University
-2024-09-23 17:25:38 - DEBUG- Found organization (not education): ethi c
-2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: Json
-2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: India
-2024-09-23 17:25:38 - DEBUG- Found organization (not education): TML
-2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: React
-2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: Node
-2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: Django
-2024-09-23 17:25:38 - DEBUG- Found organization (not education): Vscod
-2024-09-23 17:25:38 - DEBUG- Found organization (not education): SQLite
-2024-09-23 17:25:38 - DEBUG- Found organization (not education): Wordpress
-2024-09-23 17:25:38 - DEBUG- Found organization (not education): DYP
-2024-09-23 17:25:38 - DEBUG- Found organization (not education): G Ideathon
-2024-09-23 17:25:38 - DEBUG- Found organization (not education): DSA
-2024-09-23 17:25:38 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:25:38 - DEBUG- Found organization (not education): the CSI MIT
-2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: Texephyr
-2024-09-23 17:25:38 - DEBUG- Extracted education: MIT World Peace University Course
-2024-09-23 17:25:38 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 17:25:38 - DEBUG- Found geopolitical entity: Github
-2024-09-23 17:25:38 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 17:25:38 - DEBUG- Extracted phone: 9685890401
-2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
-2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: tools, Skill: Git
-2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
-2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
-2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
-2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
-2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: frameworks, Skill: React
-2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
-2024-09-23 17:25:39 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
-2024-09-23 17:25:39 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
-2024-09-23 17:25:39 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 17:26:27 - INFO- Reading PDF: uploads\6ebebdd1-9ced-4aa4-aeb1-fafedcacf89c.pdf
-2024-09-23 17:26:27 - DEBUG- Preprocessed resume text.
-2024-09-23 17:26:27 - DEBUG- Extracted name: Singh Chandel
-2024-09-23 17:26:27 - DEBUG- Found organization (not education): Maharashtra LinkedIn
-2024-09-23 17:26:27 - DEBUG- Found organization (not education): CSE
-2024-09-23 17:26:27 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:26:27 - DEBUG- Extracted education: MIT World Peace University
-2024-09-23 17:26:27 - DEBUG- Found organization (not education): ethi c
-2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: Json
-2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: India
-2024-09-23 17:26:27 - DEBUG- Found organization (not education): TML
-2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: React
-2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: Node
-2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: Django
-2024-09-23 17:26:27 - DEBUG- Found organization (not education): Vscod
-2024-09-23 17:26:27 - DEBUG- Found organization (not education): SQLite
-2024-09-23 17:26:27 - DEBUG- Found organization (not education): Wordpress
-2024-09-23 17:26:27 - DEBUG- Found organization (not education): DYP
-2024-09-23 17:26:27 - DEBUG- Found organization (not education): G Ideathon
-2024-09-23 17:26:27 - DEBUG- Found organization (not education): DSA
-2024-09-23 17:26:27 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:26:27 - DEBUG- Found organization (not education): the CSI MIT
-2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: Texephyr
-2024-09-23 17:26:27 - DEBUG- Extracted education: MIT World Peace University Course
-2024-09-23 17:26:27 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 17:26:27 - DEBUG- Found geopolitical entity: Github
-2024-09-23 17:26:27 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 17:26:27 - DEBUG- Extracted phone: 9685890401
-2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
-2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: tools, Skill: Git
-2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
-2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
-2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
-2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
-2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: frameworks, Skill: React
-2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
-2024-09-23 17:26:27 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
-2024-09-23 17:26:27 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
-2024-09-23 17:26:27 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 17:27:14 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 17:27:14 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 17:27:14 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 17:27:14 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 17:27:28 - INFO- Reading PDF: uploads\ad9f3cf1-7c33-4595-9afd-7fc5d8c3eb9d.pdf
-2024-09-23 17:27:28 - DEBUG- Preprocessed resume text.
-2024-09-23 17:27:28 - DEBUG- Extracted name: Singh Chandel
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): CSE
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:27:28 - DEBUG- Extracted education: MIT World Peace University
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:27:28 - DEBUG- Found geopolitical entity: India
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): Quantitative Aptitude
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): Verbal Ability
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): TypeScript
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): CSS
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): PHP( Wordpress
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): React -Native , React
-2024-09-23 17:27:28 - DEBUG- Found geopolitical entity: Node
-2024-09-23 17:27:28 - DEBUG- Found geopolitical entity: Bootstrap
-2024-09-23 17:27:28 - DEBUG- Found geopolitical entity: Django
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): Vscod
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): SQLite
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): Wordpress
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): CSI
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): Chapter
-2024-09-23 17:27:28 - DEBUG- Found geopolitical entity: Texephyr
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:27:28 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:27:28 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 17:27:28 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 17:27:28 - DEBUG- Extracted phone: 9685890401
-2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
-2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: tools, Skill: Git
-2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
-2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
-2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
-2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
-2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: frameworks, Skill: React
-2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
-2024-09-23 17:27:28 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
-2024-09-23 17:27:28 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
-2024-09-23 17:27:28 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 17:37:47 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 17:37:47 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 17:37:48 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 17:37:48 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 17:38:08 - INFO- Reading PDF: uploads\bd3b2e38-3c40-479a-b1e5-1b319d76a3a6.pdf
-2024-09-23 17:38:08 - DEBUG- Preprocessed resume text.
-2024-09-23 17:38:08 - DEBUG- Extracted name: Singh Chandel
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): CSE
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:38:08 - DEBUG- Extracted education: MIT World Peace University
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:38:08 - DEBUG- Found geopolitical entity: India
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): Quantitative Aptitude
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): Verbal Ability
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): TypeScript
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): CSS
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): PHP( Wordpress
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): React -Native , React
-2024-09-23 17:38:08 - DEBUG- Found geopolitical entity: Node
-2024-09-23 17:38:08 - DEBUG- Found geopolitical entity: Bootstrap
-2024-09-23 17:38:08 - DEBUG- Found geopolitical entity: Django
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): Vscod
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): SQLite
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): Wordpress
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): CSI
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): Chapter
-2024-09-23 17:38:08 - DEBUG- Found geopolitical entity: Texephyr
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:38:08 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:38:08 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 17:38:08 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 17:38:08 - DEBUG- Extracted phone: 9685890401
-2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
-2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: tools, Skill: Git
-2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
-2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
-2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
-2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
-2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: frameworks, Skill: React
-2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
-2024-09-23 17:38:08 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
-2024-09-23 17:38:08 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
-2024-09-23 17:38:08 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 17:38:17 - INFO- Reading PDF: uploads\6f3865a9-6f78-4b53-becf-ee8779f9293b.pdf
-2024-09-23 17:38:17 - DEBUG- Preprocessed resume text.
-2024-09-23 17:38:18 - DEBUG- Extracted name: Singh Chandel
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): CSE
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:38:18 - DEBUG- Extracted education: MIT World Peace University
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:38:18 - DEBUG- Found geopolitical entity: India
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): Quantitative Aptitude
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): Verbal Ability
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): TypeScript
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): CSS
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): PHP( Wordpress
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): React -Native , React
-2024-09-23 17:38:18 - DEBUG- Found geopolitical entity: Node
-2024-09-23 17:38:18 - DEBUG- Found geopolitical entity: Bootstrap
-2024-09-23 17:38:18 - DEBUG- Found geopolitical entity: Django
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): Vscod
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): SQLite
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): Wordpress
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): CSI
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): Chapter
-2024-09-23 17:38:18 - DEBUG- Found geopolitical entity: Texephyr
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:38:18 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:38:18 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 17:38:18 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 17:38:18 - DEBUG- Extracted phone: 9685890401
-2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
-2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: tools, Skill: Git
-2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
-2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
-2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
-2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
-2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: frameworks, Skill: React
-2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
-2024-09-23 17:38:18 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
-2024-09-23 17:38:18 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
-2024-09-23 17:38:18 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 17:41:45 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 17:41:45 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 17:41:45 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 17:41:45 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 17:42:21 - INFO- Reading PDF: uploads\a2887cda-25ff-4d36-b317-464861cb6cf6.pdf
-2024-09-23 17:42:26 - INFO- Reading PDF: uploads\5d63aad4-d46e-48cb-a050-8c4ca78a426e.pdf
-2024-09-23 17:44:40 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 17:44:40 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 17:44:40 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 17:44:40 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 17:44:43 - INFO- Reading PDF: uploads\d20cdf83-f356-401d-83c2-edda39ea233b.pdf
-2024-09-23 17:44:43 - DEBUG- Preprocessed resume text.
-2024-09-23 17:44:43 - DEBUG- Extracted name: Singh Chandel
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): CSE
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:44:43 - DEBUG- Extracted education: MIT World Peace University
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:44:43 - DEBUG- Found geopolitical entity: India
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): CAT
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): Quantitative Aptitude
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): Verbal Ability
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): TypeScript
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): CSS
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): PHP( Wordpress
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): React -Native , React
-2024-09-23 17:44:43 - DEBUG- Found geopolitical entity: Node
-2024-09-23 17:44:43 - DEBUG- Found geopolitical entity: Bootstrap
-2024-09-23 17:44:43 - DEBUG- Found geopolitical entity: Django
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): Vscod
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): SQLite
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): Wordpress
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): CSI
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): Chapter
-2024-09-23 17:44:43 - DEBUG- Found geopolitical entity: Texephyr
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 17:44:43 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 17:44:43 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 17:44:43 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 17:44:43 - DEBUG- Extracted phone: +91
-2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
-2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: tools, Skill: Git
-2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
-2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
-2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
-2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
-2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: frameworks, Skill: React
-2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
-2024-09-23 17:44:43 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
-2024-09-23 17:44:43 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
-2024-09-23 17:44:43 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 17:54:56 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 17:54:56 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 17:54:56 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 17:54:56 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 17:54:58 - INFO- Reading PDF: uploads\b48a67b6-1060-4317-a3b0-3189c430a318.pdf
-2024-09-23 17:54:58 - DEBUG- Preprocessed resume text.
-2024-09-23 17:54:58 - DEBUG- Found geopolitical entity: singh chandel
-2024-09-23 17:54:58 - DEBUG- Extracted education: mit world peace university
-2024-09-23 17:54:58 - DEBUG- Found geopolitical entity: india
-2024-09-23 17:54:58 - DEBUG- Found geopolitical entity: node
-2024-09-23 17:54:58 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 17:54:58 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 17:54:58 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 17:54:58 - DEBUG- Extracted phone: 9685890401
-2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 17:54:59 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 17:54:59 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
-2024-09-23 17:54:59 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 17:56:13 - INFO- Reading PDF: uploads\9a49f052-cb0a-4678-b82d-01716e96a4fe.pdf
-2024-09-23 17:56:13 - DEBUG- Preprocessed resume text.
-2024-09-23 17:56:13 - DEBUG- Found geopolitical entity: singh chandel
-2024-09-23 17:56:13 - DEBUG- Extracted education: mit world peace university
-2024-09-23 17:56:13 - DEBUG- Found geopolitical entity: india
-2024-09-23 17:56:13 - DEBUG- Found geopolitical entity: node
-2024-09-23 17:56:13 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 17:56:13 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 17:56:13 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 17:56:13 - DEBUG- Extracted phone: 9685890401
-2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 17:56:14 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 17:56:14 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
-2024-09-23 17:56:14 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 18:02:29 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:02:29 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:02:29 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:02:29 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:07:57 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:07:57 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:07:57 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:07:57 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:08:00 - INFO- Reading PDF: uploads\5bd6a24e-90ce-4878-b218-2df3b1136165.pdf
-2024-09-23 18:08:00 - DEBUG- Preprocessed resume text.
-2024-09-23 18:08:00 - DEBUG- Found geopolitical entity: singh chandel
-2024-09-23 18:08:00 - DEBUG- Extracted education: mit world peace university
-2024-09-23 18:08:00 - DEBUG- Found geopolitical entity: india
-2024-09-23 18:08:00 - DEBUG- Found geopolitical entity: node
-2024-09-23 18:08:00 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:08:00 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:08:00 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 18:08:00 - DEBUG- Extracted phone: +91
-2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 18:08:01 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 18:08:01 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
-2024-09-23 18:08:01 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 18:08:39 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:08:39 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:08:39 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:08:39 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:08:45 - INFO- Reading PDF: uploads\7b27aa3a-e309-4889-b247-daec2b2e85f5.pdf
-2024-09-23 18:08:45 - DEBUG- Preprocessed resume text.
-2024-09-23 18:08:45 - DEBUG- Extracted name: Singh Chandel
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): CSE
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 18:08:45 - DEBUG- Extracted education: MIT World Peace University
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): CAT
-2024-09-23 18:08:45 - DEBUG- Found geopolitical entity: India
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): CAT
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): Quantitative Aptitude
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): Verbal Ability
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): TypeScript
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): CSS
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): PHP( Wordpress
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): React -Native , React
-2024-09-23 18:08:45 - DEBUG- Found geopolitical entity: Node
-2024-09-23 18:08:45 - DEBUG- Found geopolitical entity: Bootstrap
-2024-09-23 18:08:45 - DEBUG- Found geopolitical entity: Django
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): Vscod
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): SQLite
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): Wordpress
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): CSI
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): Chapter
-2024-09-23 18:08:45 - DEBUG- Found geopolitical entity: Texephyr
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 18:08:45 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 18:08:45 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:08:45 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 18:08:45 - DEBUG- Extracted phone: +91
-2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
-2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: tools, Skill: Git
-2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
-2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
-2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
-2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
-2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: frameworks, Skill: React
-2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
-2024-09-23 18:08:45 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
-2024-09-23 18:08:45 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
-2024-09-23 18:08:45 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 18:09:48 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:09:48 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:09:48 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:09:48 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:11:18 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:11:18 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:11:18 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:11:18 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:11:22 - INFO- Reading PDF: uploads\4865b127-e004-453d-a545-08f0ca2de943.pdf
-2024-09-23 18:11:22 - DEBUG- Preprocessed resume text.
-2024-09-23 18:11:22 - DEBUG- Found geopolitical entity: singh chandel
-2024-09-23 18:11:22 - DEBUG- Extracted education: mit world peace university
-2024-09-23 18:11:22 - DEBUG- Found geopolitical entity: india
-2024-09-23 18:11:22 - DEBUG- Found geopolitical entity: node
-2024-09-23 18:11:22 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:11:22 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:11:22 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 18:11:22 - DEBUG- Extracted phone: +91
-2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 18:11:22 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 18:11:22 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
-2024-09-23 18:11:22 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 18:12:51 - INFO- Reading PDF: uploads\3dc02523-5d33-44af-a823-f3a08a7b474e.pdf
-2024-09-23 18:12:51 - DEBUG- Preprocessed resume text.
-2024-09-23 18:12:51 - DEBUG- Found geopolitical entity: singh chandel
-2024-09-23 18:12:51 - DEBUG- Extracted education: mit world peace university
-2024-09-23 18:12:51 - DEBUG- Found geopolitical entity: india
-2024-09-23 18:12:51 - DEBUG- Found geopolitical entity: node
-2024-09-23 18:12:51 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:12:51 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:12:51 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 18:12:51 - DEBUG- Extracted phone: +91
-2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 18:12:51 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 18:12:51 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
-2024-09-23 18:12:51 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 18:15:22 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:15:22 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:15:22 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:15:22 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:15:26 - INFO- Reading PDF: uploads\20a98fc6-6978-4b03-9eb3-7e161d1e525b.pdf
-2024-09-23 18:15:27 - DEBUG- Preprocessed resume text.
-2024-09-23 18:15:27 - DEBUG- Found geopolitical entity: singh chandel
-2024-09-23 18:15:27 - DEBUG- Extracted education: mit world peace university
-2024-09-23 18:15:27 - DEBUG- Found geopolitical entity: india
-2024-09-23 18:15:27 - DEBUG- Found geopolitical entity: node
-2024-09-23 18:15:27 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:15:27 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:15:27 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 18:15:27 - DEBUG- Extracted phone: +91
-2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 18:15:27 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 18:15:27 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
-2024-09-23 18:15:27 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 18:17:33 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:17:33 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:17:33 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:17:33 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:18:38 - INFO- Reading PDF: uploads\5babcf3b-4ee6-4bea-b6d1-4d444ac3d756.pdf
-2024-09-23 18:18:38 - DEBUG- Preprocessed resume text.
-2024-09-23 18:18:38 - DEBUG- Found geopolitical entity: singh chandel
-2024-09-23 18:18:38 - DEBUG- Extracted education: mit world peace university
-2024-09-23 18:18:38 - DEBUG- Found geopolitical entity: india
-2024-09-23 18:18:38 - DEBUG- Found geopolitical entity: node
-2024-09-23 18:18:38 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:18:38 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:18:38 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 18:18:38 - DEBUG- Extracted phone: +91
-2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 18:18:39 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 18:18:39 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
-2024-09-23 18:18:39 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 18:20:44 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:20:44 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:20:44 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:20:44 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:20:53 - INFO- Reading PDF: uploads\4f487918-e3e3-4c49-8bf6-28ea89ff895a.pdf
-2024-09-23 18:20:53 - DEBUG- Preprocessed resume text.
-2024-09-23 18:20:53 - DEBUG- Found geopolitical entity: singh chandel
-2024-09-23 18:20:53 - DEBUG- Extracted education: mit world peace university
-2024-09-23 18:20:53 - DEBUG- Found geopolitical entity: india
-2024-09-23 18:20:53 - DEBUG- Found geopolitical entity: node
-2024-09-23 18:20:53 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:20:53 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:20:53 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 18:20:53 - DEBUG- Extracted phone: +91
-2024-09-23 18:20:53 - DEBUG- Matches found: [(11245506510005629854, 88, 89), (5990950555658558085, 164, 165), (11245506510005629854, 188, 189), (1755351039129196717, 195, 196), (5990950555658558085, 250, 251), (11832406233511329643, 265, 266), (11245506510005629854, 270, 271), (5990950555658558085, 342, 343), (11245506510005629854, 349, 350), (11245506510005629854, 357, 358), (11245506510005629854, 361, 362), (11832406233511329643, 372, 373), (11832406233511329643, 375, 376), (11832406233511329643, 381, 382), (1755351039129196717, 408, 409), (1755351039129196717, 410, 411), (11245506510005629854, 568, 569)]
-2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 18:20:53 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 18:20:53 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ certification': ['present certification']
-2024-09-23 18:20:53 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 18:23:19 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:23:19 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:23:19 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:23:19 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:23:32 - INFO- Reading PDF: uploads\a7e1891d-2250-4e23-ad5b-edbe65c6dc59.pdf
-2024-09-23 18:23:32 - DEBUG- Preprocessed resume text.
-2024-09-23 18:23:32 - DEBUG- Extracted name: Singh Chandel
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): CSE
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 18:23:32 - DEBUG- Extracted education: MIT World Peace University
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): CAT
-2024-09-23 18:23:32 - DEBUG- Found geopolitical entity: India
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): CAT
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): Quantitative Aptitude
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): Verbal Ability
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): TypeScript
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): CSS
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): PHP( Wordpress
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): React -Native , React
-2024-09-23 18:23:32 - DEBUG- Found geopolitical entity: Node
-2024-09-23 18:23:32 - DEBUG- Found geopolitical entity: Bootstrap
-2024-09-23 18:23:32 - DEBUG- Found geopolitical entity: Django
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): Vscod
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): SQLite
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): Wordpress
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): CSI
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): Chapter
-2024-09-23 18:23:32 - DEBUG- Found geopolitical entity: Texephyr
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 18:23:32 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 18:23:32 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:23:32 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 18:23:32 - DEBUG- Extracted phone: +91
-2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
-2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: tools, Skill: Git
-2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
-2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
-2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
-2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
-2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: frameworks, Skill: React
-2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
-2024-09-23 18:23:32 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
-2024-09-23 18:23:32 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
-2024-09-23 18:23:32 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 18:26:33 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:26:33 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:26:33 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:26:33 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:26:37 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:26:37 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:26:37 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:26:37 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:33:42 - INFO- Reading PDF: uploads\3704c79f-11cf-4312-b92d-09ce99dd23b5.pdf
-2024-09-23 18:33:42 - DEBUG- Preprocessed resume text.
-2024-09-23 18:33:42 - DEBUG- Extracted name: Singh Chandel
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): CSE
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 18:33:42 - DEBUG- Extracted education: MIT World Peace University
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): CAT
-2024-09-23 18:33:42 - DEBUG- Found geopolitical entity: India
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): CAT
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): Quantitative Aptitude
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): Verbal Ability
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): TypeScript
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): CSS
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): PHP( Wordpress
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): React -Native , React
-2024-09-23 18:33:42 - DEBUG- Found geopolitical entity: Node
-2024-09-23 18:33:42 - DEBUG- Found geopolitical entity: Bootstrap
-2024-09-23 18:33:42 - DEBUG- Found geopolitical entity: Django
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): Vscod
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): SQLite
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): Wordpress
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): the Codex Coding Competition Basic
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): CSI
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): Chapter
-2024-09-23 18:33:42 - DEBUG- Found geopolitical entity: Texephyr
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): AI & DS
-2024-09-23 18:33:42 - DEBUG- Found organization (not education): Hackerrank
-2024-09-23 18:33:42 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:33:42 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 18:33:42 - DEBUG- Extracted phone: +91
-2024-09-23 18:33:42 - DEBUG- Extracted skill - Category: programming_languages, Skill: Python
-2024-09-23 18:33:42 - DEBUG- Extracted skill - Category: tools, Skill: Git
-2024-09-23 18:33:42 - DEBUG- Extracted skill - Category: databases, Skill: MongoDB
-2024-09-23 18:33:42 - DEBUG- Extracted skill - Category: frameworks, Skill: Django
-2024-09-23 18:33:42 - DEBUG- Extracted skill - Category: programming_languages, Skill: TypeScript
-2024-09-23 18:33:42 - DEBUG- Extracted skill - Category: programming_languages, Skill: PHP
-2024-09-23 18:33:42 - DEBUG- Extracted skill - Category: frameworks, Skill: React
-2024-09-23 18:33:42 - DEBUG- Extracted skill - Category: databases, Skill: MySQL
-2024-09-23 18:33:42 - DEBUG- Extracted skill - Category: databases, Skill: SQLite
-2024-09-23 18:33:42 - DEBUG- Extracted certifications with pattern '[A-Za-z\s]+ Certification': ['present CERTIFICATION']
-2024-09-23 18:33:42 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 18:36:21 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:36:21 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:36:21 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:36:21 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:36:25 - INFO- Reading PDF: uploads\bb6aaa91-4c89-46c5-ad4e-aed5bf3e75e1.pdf
-2024-09-23 18:36:26 - DEBUG- Preprocessed resume text.
-2024-09-23 18:36:26 - DEBUG- Found geopolitical entity: singh chandel
-2024-09-23 18:36:26 - DEBUG- Extracted education: mit world peace university
-2024-09-23 18:36:26 - DEBUG- Found geopolitical entity: india
-2024-09-23 18:36:26 - DEBUG- Found geopolitical entity: node
-2024-09-23 18:36:26 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:36:26 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:36:26 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 18:36:26 - DEBUG- Extracted phone: +91
-2024-09-23 18:36:26 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 18:36:26 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 18:36:26 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 18:36:26 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 18:36:26 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 18:36:26 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 18:36:26 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 18:36:26 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 18:36:26 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 18:36:26 - DEBUG- Extracted certifications with pattern '[a-z\s]+ certification': ['present certification']
-2024-09-23 18:36:26 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 18:37:35 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:37:35 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:37:35 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:37:35 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:37:43 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:37:43 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:37:43 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:37:43 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:37:47 - INFO- Reading PDF: uploads\a03e5ec2-ff07-44c5-ba7c-9cfa5aff3999.pdf
-2024-09-23 18:37:47 - DEBUG- Preprocessed resume text.
-2024-09-23 18:37:47 - DEBUG- Found geopolitical entity: singh chandel
-2024-09-23 18:37:47 - DEBUG- Extracted education: mit world peace university
-2024-09-23 18:37:47 - DEBUG- Found geopolitical entity: india
-2024-09-23 18:37:47 - DEBUG- Found geopolitical entity: node
-2024-09-23 18:37:47 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:37:47 - DEBUG- Found geopolitical entity: roguetitan
-2024-09-23 18:37:47 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 18:37:47 - DEBUG- Extracted phone: +91
-2024-09-23 18:37:47 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 18:37:47 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 18:37:47 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 18:37:47 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 18:37:47 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 18:37:47 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 18:37:47 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 18:37:47 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 18:37:47 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 18:37:47 - DEBUG- Extracted certifications with pattern '[a-z\s]+ certification': ['present certification']
-2024-09-23 18:37:47 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 18:38:24 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:38:24 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:38:24 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:38:24 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:42:17 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:42:17 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:42:17 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:42:17 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:42:36 - INFO- Reading PDF: uploads\6ca6ff1a-6a35-4ae9-b48c-5f933958760d.pdf
-2024-09-23 18:42:36 - DEBUG- Preprocessed resume text.
-2024-09-23 18:42:36 - DEBUG- Extracted education: mit world peace university
-2024-09-23 18:42:36 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 18:42:36 - DEBUG- Extracted phone: +91
-2024-09-23 18:42:36 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 18:42:36 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 18:42:36 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 18:42:36 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 18:42:36 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 18:42:36 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 18:42:36 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 18:42:36 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 18:42:36 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 18:42:36 - DEBUG- Extracted certifications with pattern '[a-z\s]+ certification': ['present certification']
-2024-09-23 18:42:36 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 18:42:59 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:42:59 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:42:59 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:42:59 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:44:48 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 18:44:48 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 18:44:48 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 18:44:48 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 18:44:50 - INFO- Reading PDF: uploads\7abfa3a5-818e-49e3-9185-030dcdc21db5.pdf
-2024-09-23 18:44:50 - DEBUG- Preprocessed resume text.
-2024-09-23 18:44:50 - DEBUG- Fallback name extracted: summary/objective om
-2024-09-23 18:44:50 - DEBUG- Extracted education: mit world peace university
-2024-09-23 18:44:50 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 18:44:50 - DEBUG- Extracted phone: +91
-2024-09-23 18:44:50 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 18:44:50 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 18:44:50 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 18:44:50 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 18:44:50 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 18:44:50 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 18:44:50 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 18:44:50 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 18:44:50 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 18:44:50 - DEBUG- Extracted certifications with pattern '[a-z\s]+ certification': ['present certification']
-2024-09-23 18:44:50 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 18:45:14 - INFO- Reading PDF: uploads\ceb9f260-3d6c-490a-8f29-3801668b1b77.pdf
-2024-09-23 18:45:14 - DEBUG- Preprocessed resume text.
-2024-09-23 18:45:14 - DEBUG- Fallback name extracted: summary/objective om
-2024-09-23 18:45:14 - DEBUG- Extracted education: mit world peace university
-2024-09-23 18:45:14 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 18:45:14 - DEBUG- Extracted phone: +91
-2024-09-23 18:45:14 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 18:45:14 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 18:45:14 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 18:45:14 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 18:45:14 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 18:45:14 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 18:45:14 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 18:45:14 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 18:45:14 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 18:45:14 - DEBUG- Extracted certifications with pattern '[a-z\s]+ certification': ['present certification']
-2024-09-23 18:45:14 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 20:57:22 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 20:57:22 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 20:57:22 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 20:57:22 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:00:27 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:00:27 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:00:27 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:00:27 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:00:53 - INFO- Reading PDF: uploads\abf37c36-9cb3-427d-8123-ef9ee16714b1.pdf
-2024-09-23 21:06:33 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:06:33 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:06:33 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:06:33 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:06:41 - INFO- Reading PDF: uploads\c0c90a6c-6ff3-445d-94d0-98ee0a544018.pdf
-2024-09-23 21:07:03 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:07:03 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:07:03 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:07:03 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:07:15 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:07:15 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:07:15 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:07:15 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:07:34 - INFO- Reading PDF: uploads\589a91a9-6a15-42fa-a001-3a7e1732aa56.pdf
-2024-09-23 21:10:54 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:10:54 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:10:54 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:10:54 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:15:59 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:15:59 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:15:59 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:15:59 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:15:59 - DEBUG- Preprocessed resume text.
-2024-09-23 21:15:59 - DEBUG- Fallback name extracted: summary/objective om
-2024-09-23 21:15:59 - DEBUG- Extracted education: mit world peace university
-2024-09-23 21:15:59 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 21:15:59 - DEBUG- Extracted phone: +91
-2024-09-23 21:15:59 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 21:15:59 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 21:15:59 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 21:15:59 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 21:15:59 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 21:15:59 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 21:15:59 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 21:15:59 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 21:15:59 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 21:15:59 - DEBUG- Extracted certifications with pattern '[a-z\s]+ certification': ['present certification']
-2024-09-23 21:15:59 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 21:16:33 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:16:33 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:16:33 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:16:33 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:16:33 - DEBUG- Preprocessed resume text.
-2024-09-23 21:16:33 - DEBUG- Fallback name extracted: summary/objective om
-2024-09-23 21:16:33 - DEBUG- Extracted education: mit world peace university
-2024-09-23 21:16:33 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 21:16:33 - DEBUG- Extracted phone: +91
-2024-09-23 21:16:33 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 21:16:33 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 21:16:33 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 21:16:33 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 21:16:33 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 21:16:33 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 21:16:33 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 21:16:33 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 21:16:33 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 21:16:33 - DEBUG- Extracted certifications with pattern '[a-z\s]+ certification': ['present certification']
-2024-09-23 21:16:33 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 21:16:50 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:16:50 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:16:50 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:16:50 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:16:50 - DEBUG- Preprocessed resume text.
-2024-09-23 21:16:50 - DEBUG- Extracted education: mit world peace university
-2024-09-23 21:16:50 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 21:16:50 - DEBUG- Extracted phone: +91
-2024-09-23 21:16:50 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 21:16:50 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 21:16:50 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 21:16:50 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 21:16:50 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 21:16:50 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 21:16:50 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 21:16:50 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 21:16:50 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 21:16:50 - DEBUG- Extracted certifications with pattern '[a-z\s]+ certification': ['present   \n certification']
-2024-09-23 21:16:50 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 21:17:17 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:17:17 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:17:17 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:17:17 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:17:17 - DEBUG- Preprocessed resume text.
-2024-09-23 21:17:17 - DEBUG- Fallback name extracted: summary/objective om
-2024-09-23 21:17:17 - DEBUG- Extracted education: mit world peace university
-2024-09-23 21:17:17 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 21:17:17 - DEBUG- Extracted phone: +91
-2024-09-23 21:17:17 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 21:17:17 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 21:17:17 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 21:17:17 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 21:17:17 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 21:17:17 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 21:17:17 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 21:17:17 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 21:17:17 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 21:17:17 - DEBUG- Extracted certifications with pattern '[a-z\s]+ certification': ['present certification']
-2024-09-23 21:17:17 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 21:18:20 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:18:20 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:18:20 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:18:20 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:18:20 - DEBUG- Preprocessed resume text.
-2024-09-23 21:18:21 - DEBUG- Fallback name extracted: summary/objective om
-2024-09-23 21:18:21 - DEBUG- Extracted education: mit world peace university
-2024-09-23 21:18:21 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 21:18:21 - DEBUG- Extracted phone: 9685890401
-2024-09-23 21:18:21 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 21:18:21 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 21:18:21 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 21:18:21 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 21:18:21 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 21:18:21 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 21:18:21 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 21:18:21 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 21:18:21 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 21:18:21 - DEBUG- Extracted certifications with pattern '[a-z\s]+ certification': ['present certification']
-2024-09-23 21:18:21 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 21:18:58 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:18:58 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:18:58 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:18:58 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:18:58 - DEBUG- Preprocessed resume text.
-2024-09-23 21:18:58 - DEBUG- Fallback name extracted: summary/objective om
-2024-09-23 21:18:58 - DEBUG- Extracted education: mit world peace university
-2024-09-23 21:18:58 - DEBUG- Extracted email: omchandel1703@gmail.com
-2024-09-23 21:18:58 - DEBUG- Extracted phone: 9685890401
-2024-09-23 21:18:58 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 21:18:58 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 21:18:58 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 21:18:58 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 21:18:58 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 21:18:58 - DEBUG- Extracted skill - Category: programming_languages, Skill: php
-2024-09-23 21:18:58 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 21:18:58 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 21:18:58 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 21:18:58 - DEBUG- Extracted certifications with pattern '[a-z\s]+ certification': ['present certification']
-2024-09-23 21:18:58 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 21:25:51 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:25:51 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:25:51 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:25:51 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:39:12 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:39:12 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:39:12 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:39:12 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:39:16 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:39:16 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:39:16 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:39:16 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:39:17 - INFO- Reading DOCX: uploads\1acd9fd4-412e-4a57-9319-b6d7bea63a49.docx
-2024-09-23 21:40:10 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:40:10 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:40:10 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:40:10 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:40:13 - INFO- Reading DOCX: uploads\79c945e3-1d0e-4aae-9459-492694b31cde.docx
-2024-09-23 21:40:13 - DEBUG- Preprocessed resume text.
-2024-09-23 21:40:13 - DEBUG- Extracted name: javascript roguetitan github
-2024-09-23 21:40:13 - DEBUG- Extracted education: mit world peace university
-2024-09-23 21:40:13 - DEBUG- Extracted skill - Category: programming_languages, Skill: python
-2024-09-23 21:40:13 - DEBUG- Extracted skill - Category: tools, Skill: git
-2024-09-23 21:40:13 - DEBUG- Extracted skill - Category: databases, Skill: mongodb
-2024-09-23 21:40:13 - DEBUG- Extracted skill - Category: frameworks, Skill: django
-2024-09-23 21:40:13 - DEBUG- Extracted skill - Category: programming_languages, Skill: javascript
-2024-09-23 21:40:13 - DEBUG- Extracted skill - Category: programming_languages, Skill: typescript
-2024-09-23 21:40:13 - DEBUG- Extracted skill - Category: frameworks, Skill: react
-2024-09-23 21:40:13 - DEBUG- Extracted skill - Category: databases, Skill: mysql
-2024-09-23 21:40:13 - DEBUG- Extracted skill - Category: databases, Skill: sqlite
-2024-09-23 21:40:13 - DEBUG- Extracted certifications with pattern '[a-z\s]+ certification': ['present certification']
-2024-09-23 21:40:13 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 21:40:50 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:40:50 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:40:50 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:40:50 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:40:50 - INFO- Reading DOCX: uploads\8ba5bbaa-9c29-402f-a740-197d6006879b.docx
-2024-09-23 21:41:53 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:41:53 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:41:53 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:41:53 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:41:53 - INFO- Starting text extraction for file: uploads\5ea0f270-ac16-43f4-a905-962349f9cf83.docx
-2024-09-23 21:41:53 - INFO- Extracting text from DOCX: uploads\5ea0f270-ac16-43f4-a905-962349f9cf83.docx
-2024-09-23 21:42:04 - DEBUG- Converted DOCX to PDF: temp\5ea0f270-ac16-43f4-a905-962349f9cf83.pdf
-2024-09-23 21:42:04 - INFO- Extracting text from PDF: temp\5ea0f270-ac16-43f4-a905-962349f9cf83.pdf
-2024-09-23 21:42:04 - ERROR- Error extracting text from PDF: Unable to get page count. Is poppler installed and in PATH?
-2024-09-23 21:42:04 - ERROR- Error extracting text from DOCX: Unable to get page count. Is poppler installed and in PATH?
-2024-09-23 21:46:14 - INFO- Starting text extraction for file: uploads\55e0a0ea-f727-4f16-8707-bc341d2326d2.docx
-2024-09-23 21:46:14 - INFO- Extracting text from DOCX: uploads\55e0a0ea-f727-4f16-8707-bc341d2326d2.docx
-2024-09-23 21:46:20 - DEBUG- Converted DOCX to PDF: temp\55e0a0ea-f727-4f16-8707-bc341d2326d2.pdf
-2024-09-23 21:46:20 - INFO- Extracting text from PDF: temp\55e0a0ea-f727-4f16-8707-bc341d2326d2.pdf
-2024-09-23 21:46:20 - ERROR- Error extracting text from PDF: Unable to get page count.
-
-2024-09-23 21:46:20 - ERROR- Error extracting text from DOCX: Unable to get page count.
-
-2024-09-23 21:48:18 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:48:18 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:48:18 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:48:18 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:49:22 - INFO- Reading PDF: uploads\f97044e7-b42e-45a8-8def-25cb7e20d487.pdf
-2024-09-23 21:56:28 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:56:28 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:56:28 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:56:28 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:56:33 - INFO- Reading PDF: uploads\d4d6a5b3-8a8a-4da5-87ab-3b8f64ba06b5.pdf
-2024-09-23 21:56:33 - DEBUG- Preprocessed resume text.
-2024-09-23 21:56:33 - DEBUG- Extracted name: dr backups doubled wan bandwidth mitel mcp
-2024-09-23 21:56:33 - DEBUG- Extracted certifications with pattern '[a-z\s]+ certification': [' along with a masters of science degree and multiple certification', ' state certification']
-2024-09-23 21:56:33 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 21:57:52 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 21:57:52 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 21:57:52 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 21:57:52 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 21:57:53 - INFO- Reading PDF: uploads\968c4477-fb64-479a-9479-01e0eafdcbf0.pdf
-2024-09-23 21:57:53 - DEBUG- Preprocessed resume text.
-2024-09-23 21:57:53 - DEBUG- Extracted name: dr backups doubled wan bandwidth mitel mcp
-2024-09-23 21:57:53 - DEBUG- Extracted certifications with pattern '[a-z\s]+ certification': [' along with a masters of science degree and multiple certification', ' state certification']
-2024-09-23 21:57:53 - DEBUG- Skipping MongoDB storage as save_to_mongo is False.
-2024-09-23 22:14:06 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 22:14:06 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 22:14:06 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 22:14:06 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 22:14:16 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 22:14:16 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 22:14:16 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 22:14:16 - INFO- Precompiled regex patterns for emails, phones, and URLs.
-2024-09-23 22:15:59 - INFO- Loaded SpaCy model 'en_core_web_sm'.
-2024-09-23 22:15:59 - INFO- Loaded NERArrays data directly from the code.
-2024-09-23 22:15:59 - INFO- Initialized PhraseMatcher with skill patterns.
-2024-09-23 22:15:59 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-24 03:21:54 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-24 03:21:54 - INFO- Loaded NERArrays data directly from the code.
+2024-09-24 03:21:54 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-24 03:21:54 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-24 03:34:21 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-24 03:34:21 - INFO- Loaded NERArrays data directly from the code.
+2024-09-24 03:34:21 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-24 03:34:21 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-24 03:34:25 - INFO- Loaded SpaCy model 'en_core_web_sm'.
+2024-09-24 03:34:25 - INFO- Loaded NERArrays data directly from the code.
+2024-09-24 03:34:25 - INFO- Initialized PhraseMatcher with skill patterns.
+2024-09-24 03:34:25 - INFO- Precompiled regex patterns for emails, phones, and URLs.
+2024-09-24 03:49:36 - INFO- Reading DOC using Spire.Doc: uploads\d7cf8495-a8ba-41d7-b31f-e0dfbb79db4e.doc
+2024-09-24 03:51:04 - INFO- Reading DOC using Spire.Doc: uploads\f6265a64-1400-4a5d-b43f-a5ad8352afde.doc
+2024-09-24 03:51:50 - INFO- Reading DOC using Spire.Doc: uploads\511e8ac2-b9e7-4a72-9407-a32fce826aca.doc
+2024-09-24 03:52:11 - INFO- Reading DOC using Spire.Doc: uploads\7d9d33fa-34c4-477e-9bdb-779b7042a45b.doc
+2024-09-24 04:02:29 - INFO- Reading DOC using Spire.Doc: uploads\ff124780-3666-4ace-8704-c03637492755.doc
+2024-09-24 04:04:37 - INFO- Reading DOC using Spire.Doc: uploads\86c09835-06ac-4504-af8f-998d988f6ae7.doc
+2024-09-24 04:05:18 - INFO- Reading DOC using Spire.Doc: uploads\4ae2cb6d-d82b-4c9e-8fb7-ae7a4f30148b.doc
+2024-09-24 04:23:04 - INFO- Reading DOC using Spire.Doc: uploads\d81c0558-a8d5-4594-af1c-b04fe51a9111.doc
+2024-09-24 05:08:06 - INFO- Reading DOC using Spire.Doc: uploads\0bc5b85a-0825-4d63-bc07-80eaf714c8c0.doc
+2024-09-24 05:09:27 - INFO- Reading DOC using Spire.Doc: uploads\63fbf077-54e8-4a12-ab03-c71abbfe3b18.doc
+2024-09-24 05:10:05 - INFO- Reading DOC using Spire.Doc: uploads\f4a3344f-b297-46d9-963a-17c7a2bb98d9.doc
+2024-09-24 05:10:47 - INFO- Reading DOC using Spire.Doc: uploads\27abfd9d-e6ca-4de5-b07a-f1e1f72ee6d7.doc
+2024-09-24 05:11:38 - INFO- Reading DOC using Spire.Doc: uploads\105558ae-082d-42b2-bcbc-ee254fcccdea.doc
+2024-09-24 05:13:19 - INFO- Reading DOC using Spire.Doc: uploads\7dd2723e-4c73-4eab-bfa9-e0d8c5af3340.doc
+2024-09-24 05:13:47 - INFO- Reading DOC using Spire.Doc: uploads\6de7827e-6816-4ea0-a227-b2db0b535d71.doc
+2024-09-24 05:14:19 - INFO- Reading DOC using Spire.Doc: uploads\0b222b3e-e010-4036-a136-73c0e2b163f9.doc
+2024-09-24 05:21:02 - INFO- Reading DOC using Spire.Doc: uploads\f2f09251-4901-4e83-ae0f-39d383cd4c62.doc
+2024-09-24 06:25:41 - INFO- Reading DOC using Spire.Doc: uploads\dffb803c-00d1-4aed-8812-65902f84bdf7.doc
+2024-09-24 06:26:24 - INFO- Reading DOC using Spire.Doc: uploads\bbad90f6-a3a3-4529-ac09-f060c45712e9.doc
+2024-09-24 06:50:43 - ERROR- Error extracting ZIP file: File is not a zip file
+Traceback (most recent call last):
+  File "d:\TY\resume-parser-nlp\app\services\ResumeParser.py", line 103, in process_bulk_cvs
+    with zipfile.ZipFile(directory, 'r') as zip_ref:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VICTUS\AppData\Local\Programs\Python\Python312\Lib\zipfile\__init__.py", line 1341, in __init__
+    self._RealGetContents()
+  File "C:\Users\VICTUS\AppData\Local\Programs\Python\Python312\Lib\zipfile\__init__.py", line 1408, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+2024-09-24 06:51:29 - ERROR- Error extracting ZIP file: File is not a zip file
+Traceback (most recent call last):
+  File "d:\TY\resume-parser-nlp\app\services\ResumeParser.py", line 103, in process_bulk_cvs
+    with zipfile.ZipFile(directory, 'r') as zip_ref:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VICTUS\AppData\Local\Programs\Python\Python312\Lib\zipfile\__init__.py", line 1341, in __init__
+    self._RealGetContents()
+  File "C:\Users\VICTUS\AppData\Local\Programs\Python\Python312\Lib\zipfile\__init__.py", line 1408, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+2024-09-24 06:52:11 - INFO- Data saved to MongoDB successfully.
+2024-09-24 06:53:27 - INFO- Data saved to MongoDB successfully.
+2024-09-24 06:57:14 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 06:57:14 - INFO- Data saved to MongoDB successfully.
+2024-09-24 08:07:09 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 08:07:09 - INFO- Data saved to MongoDB successfully.
+2024-09-24 08:07:14 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 08:07:14 - INFO- Data saved to MongoDB successfully.
+2024-09-24 08:58:22 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 08:58:22 - INFO- Data saved to MongoDB successfully.
+2024-09-24 08:58:47 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 08:58:47 - INFO- Data saved to MongoDB successfully.
+2024-09-24 08:59:37 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 08:59:38 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:03:04 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:03:04 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:04:38 - ERROR- Error extracting ZIP file: File is not a zip file
+Traceback (most recent call last):
+  File "d:\TY\resume-parser-nlp\app\services\ResumeParser.py", line 104, in process_bulk_cvs
+    with zipfile.ZipFile(directory, 'r') as zip_ref:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VICTUS\AppData\Local\Programs\Python\Python312\Lib\zipfile\__init__.py", line 1341, in __init__
+    self._RealGetContents()
+  File "C:\Users\VICTUS\AppData\Local\Programs\Python\Python312\Lib\zipfile\__init__.py", line 1408, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+2024-09-24 09:04:38 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:04:38 - ERROR- Error saving to MongoDB: documents must be a non-empty list
+2024-09-24 09:07:52 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:07:52 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:15:37 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:15:37 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:22:42 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:22:42 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:26:41 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:26:41 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:26:41 - ERROR- Error fetching data from MongoDB: 'NERProcessor' object has no attribute 'client'
+2024-09-24 09:28:28 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:28:28 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:28:28 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:28:28 - INFO- Fetched 44 documents from collection 'R74SB8JK46'.
+2024-09-24 09:29:12 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:29:12 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:29:12 - INFO- Fetched 44 documents from collection 'PABKQNER03'.
+2024-09-24 09:32:47 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:32:47 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:32:47 - INFO- Fetched 44 documents from collection '7R6NK7YCT6'.
+2024-09-24 09:33:30 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:33:30 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:33:30 - INFO- Fetched 44 documents from collection 'XB0551D5RX'.
+2024-09-24 09:36:10 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:36:10 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:36:10 - INFO- Fetched 44 documents from collection 'ZH55W0RF5D'.
+2024-09-24 09:38:06 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:38:06 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:38:06 - INFO- Fetched 44 documents from collection 'IK1P7P3XZP'.
+2024-09-24 09:39:31 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:39:31 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:39:31 - INFO- Fetched 44 documents from collection '9IOAGQO4RF'.
+2024-09-24 09:41:26 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:41:26 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:41:26 - INFO- Fetched 44 documents from collection 'ULWYCRE2A8'.
+2024-09-24 09:43:14 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:43:14 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:43:14 - INFO- Fetched 44 documents from collection 'SP8X5A2IYM'.
+2024-09-24 09:45:00 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:45:00 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:45:00 - INFO- Fetched 44 documents from collection 'WU4R1TAAC0'.
+2024-09-24 09:45:37 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:45:37 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:45:37 - INFO- Fetched 44 documents from collection '7GX86TO7OY'.
+2024-09-24 09:46:41 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:46:41 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:46:41 - INFO- Fetched 44 documents from collection 'OJDXHZ7MY2'.
+2024-09-24 09:49:37 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:49:37 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:49:37 - INFO- Fetched 44 documents from collection 'CJDKWAJ6CL'.
+2024-09-24 09:50:31 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:50:31 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:50:31 - INFO- Fetched 44 documents from collection 'UPN7DMUQFK'.
+2024-09-24 09:52:07 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:52:07 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:52:07 - INFO- Fetched 44 documents from collection 'JGGCIZ9QSF'.
+2024-09-24 09:52:33 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:52:33 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:52:33 - INFO- Fetched 44 documents from collection 'CE5ZZITI6A'.
+2024-09-24 09:53:26 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:53:26 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:53:26 - INFO- Fetched 44 documents from collection '9LUZ15JQ3F'.
+2024-09-24 09:54:10 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:54:10 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:54:10 - INFO- Fetched 44 documents from collection '8U9JCYL4G2'.
+2024-09-24 09:54:59 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:54:59 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:54:59 - INFO- Fetched 44 documents from collection 'RY4RVUGTEA'.
+2024-09-24 09:55:46 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:55:46 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:55:46 - INFO- Fetched 44 documents from collection '1SNVQABQKO'.
+2024-09-24 09:57:10 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:57:10 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:57:10 - INFO- Fetched 44 documents from collection '6ZJLTQSQ7K'.
+2024-09-24 09:58:15 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:58:15 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:58:15 - INFO- Fetched 44 documents from collection 'HRE7OMSVBC'.
+2024-09-24 09:59:42 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:59:42 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:59:53 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 09:59:53 - INFO- Data saved to MongoDB successfully.
+2024-09-24 09:59:53 - INFO- Fetched 44 documents from collection 'QAH5K7MQZC'.
+2024-09-24 10:01:03 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 10:01:03 - INFO- Data saved to MongoDB successfully.
+2024-09-24 10:01:03 - INFO- Fetched 44 documents from collection 'U3ASZ6KUFH'.
+2024-09-24 10:02:14 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 10:02:14 - INFO- Data saved to MongoDB successfully.
+2024-09-24 10:02:14 - INFO- Fetched 44 documents from collection 'WXBDTITMBH'.
+2024-09-24 10:03:14 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 10:03:14 - INFO- Data saved to MongoDB successfully.
+2024-09-24 10:03:14 - INFO- Fetched 44 documents from collection '89IVDKQH6P'.
+2024-09-24 10:04:28 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 10:04:28 - INFO- Data saved to MongoDB successfully.
+2024-09-24 10:04:28 - INFO- Fetched 44 documents from collection 'YK7K4WFQCB'.
+2024-09-24 10:04:51 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 10:04:51 - INFO- Data saved to MongoDB successfully.
+2024-09-24 10:04:51 - INFO- Fetched 44 documents from collection 'MI6NGDZ6AZ'.
+2024-09-24 10:05:54 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 10:05:54 - INFO- Data saved to MongoDB successfully.
+2024-09-24 10:05:54 - INFO- Fetched 44 documents from collection 'SJ3O25FFP2'.
+2024-09-24 10:06:29 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 10:06:29 - INFO- Data saved to MongoDB successfully.
+2024-09-24 10:06:29 - INFO- Fetched 44 documents from collection 'EQJSBGGIOL'.
+2024-09-24 10:07:28 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 10:07:28 - INFO- Data saved to MongoDB successfully.
+2024-09-24 10:07:28 - INFO- Fetched 44 documents from collection 'LPP8UW7A5Z'.
+2024-09-24 10:08:50 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 10:08:50 - INFO- Data saved to MongoDB successfully.
+2024-09-24 10:08:50 - INFO- Fetched 44 documents from collection '33G5IRT8CW'.
+2024-09-24 10:12:25 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 10:12:25 - INFO- Data saved to MongoDB successfully.
+2024-09-24 10:12:25 - INFO- Fetched 44 documents from collection 'VF329UY05J'.
+2024-09-24 10:12:49 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 10:12:49 - INFO- Data saved to MongoDB successfully.
+2024-09-24 10:12:49 - INFO- Fetched 44 documents from collection 'LSIU4YSSQT'.
+2024-09-24 10:12:53 - INFO- Fetched 0 documents from collection '{{ collection_name }}'.
+2024-09-24 10:14:15 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 10:14:15 - INFO- Data saved to MongoDB successfully.
+2024-09-24 10:14:15 - INFO- Fetched 44 documents from collection 'EQA59MDBH1'.
+2024-09-24 10:14:18 - INFO- Fetched 44 documents from collection 'EQA59MDBH1'.
+2024-09-24 10:14:18 - INFO- Fetched 0 documents from collection '{{ collection_name }}'.
+2024-09-24 10:17:20 - ERROR- Error connecting to MongoDB: 'NERProcessor' object has no attribute 'mongo_uri'
+2024-09-24 10:17:20 - INFO- Data saved to MongoDB successfully.
+2024-09-24 10:17:20 - INFO- Fetched 44 documents from collection '7O5KMHX1XX'.
+2024-09-24 10:17:34 - INFO- Fetched 44 documents from collection '7O5KMHX1XX'.
+2024-09-24 10:17:34 - INFO- Fetched 0 documents from collection '{{ collection_name }}'.
+2024-09-24 10:17:37 - INFO- Fetched 44 documents from collection '7O5KMHX1XX'.
+2024-09-24 10:17:37 - INFO- Fetched 0 documents from collection '{{ collection_name }}'.
+2024-09-24 10:17:39 - INFO- Fetched 44 documents from collection '7O5KMHX1XX'.
+2024-09-24 10:17:39 - INFO- Fetched 0 documents from collection '{{ collection_name }}'.

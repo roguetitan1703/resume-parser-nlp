@@ -1,0 +1,33 @@
+resume_2 = """
+Sarah Johnson  
+sarahj@example.com  
++44-7985-456-321  
+London, UK  
+
+PROFESSIONAL SUMMARY  
+Data Scientist with a passion for analyzing large datasets and building machine learning models. Experienced with Python, SQL, and cloud platforms like Azure.
+
+EXPERIENCE  
+Data Scientist at FinTech Co.  
+February 2021 - Present  
+- Created predictive models using Python, TensorFlow, and scikit-learn.  
+- Analyzed large datasets using SQL and PostgreSQL databases.  
+- Deployed data models on Azure and Docker for production environments.
+
+EDUCATION  
+M.S. in Data Science  
+Imperial College London  
+Graduated: November 2020  
+
+SKILLS  
+Python, SQL, R  
+TensorFlow, scikit-learn, FastAPI  
+PostgreSQL, MySQL, SQLite  
+Azure, AWS  
+Docker, Jupyter, Git, Airflow  
+
+EXTERNAL LINKS  
+https://github.com/sarahjohnson  
+https://linkedin.com/in/sarahjohnson  
+https://hackerrank.com/sarahjohnson  
+"""

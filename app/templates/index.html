@@ -1,76 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="../static/assets/logo.png" />
-    <title>CV Processing Tool by Om Singh Chandel</title>
 
-    <!-- Tailwind CSS -->
-    <link href="/static/css/output.css" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../static/assets/logo.png" />
+  <title>CV Processing Tool</title>
 
-    <!-- Font Awesome for icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+  <!-- Tailwind CSS -->
+  <link href="/static/css/output.css" rel="stylesheet" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <body class="font-sans">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="font-sans">
+  <div
+    class="main min-h-screen px-4 grid grid-cols-3 space-x-4 items-center justify-center bg-[url('https://wallpapersmug.com/download/3840x2160/920758/abstract-dark-red-4k.jpg')] bg-cover bg-center h-screen">
     <div
-        class="main min-h-screen px-4 grid grid-cols-3 space-x-4 items-center justify-center bg-[url('https://wallpapersmug.com/download/3840x2160/920758/abstract-dark-red-4k.jpg')] bg-cover bg-center h-screen">
-        <div class="main-content bg-black/30 shadow-md rounded-lg p-8 text-white backdrop-blur-sm hover:scale-101 hover:backdrop-blur-xl transition ease-in-out duration-150">
-            <h1 class="text-4xl font-bold text-center mb-6">CV Processing Tool</h1>
-            <div class="container mx-auto flex justify-center items-center">
-                <div>
-                    <p class="text-lg text-gray-300 mb-4 text-center">
-                        Upload a ZIP file containing CVs and extract their information
-                        into an Excel sheet.
-                    </p>
-                    <form method="POST" action="/extract_data" enctype="multipart/form-data" class="space-y-4">
-                        <div class="mb-3">
-                            <label for="file" class="block text-gray-300 font-medium mb-2">Select CVs (ZIP
-                                file):</label>
-                            <input
-                                class="block w-full mt-1 p-2 border border-gray-300 rounded-md hover:shadow-md focus:ring-blue-500 focus:border-blue-500 transition-ease-in-out duration-150"
-                                type="file" id="file" name="file" accept=".zip" />
-                        </div>
-                        <div class="flex flex-row justify-center">
-                            <button id="extractButton" type="submit"
-                                class="bg-[#bd396c] px-10 text-lg text-white py-2 px-4 rounded-lg hover:shadow-xl hover:rounded-md hover:animate-pulse hover:scale-110 focus:outline-none transition ease-in-out duration-150">
-                                Extract Data
-                            </button>
-                        </div>
-                        <div id="message" class="mt-3 text-center"></div>
-                    </form>
-                </div>
+      class="main-content bg-black/30 shadow-md rounded-lg p-8 text-white backdrop-blur-sm hover:scale-101 hover:backdrop-blur-xl transition ease-in-out duration-150">
+      <h1 class="text-4xl font-bold text-center mb-6">CV Processing Tool</h1>
+      <div class="container mx-auto flex justify-center items-center">
+        <div>
+          <p class="text-lg text-gray-300 mb-4 text-center">
+            Upload a Resume file to see its structured data.
+          </p>
+          <form method="POST" action="/extract_data" enctype="multipart/form-data" class="space-y-4">
+            <div class="mb-3">
+              <label for="file" class="block text-gray-300 font-medium mb-2">Upload CV</label>
+              <input
+                class="block w-full mt-1 p-2 border border-gray-300 rounded-md hover:shadow-md focus:ring-blue-500 focus:border-blue-500 transition-ease-in-out duration-150"
+                type="file" id="file" name="file" accept="application/pdf, .doc, .docx" />
             </div>
+            <div class="flex flex-row justify-center">
+              <button id="extractButton" type="submit"
+                class="bg-[#bd396c] px-10 text-lg text-white py-2 px-4 rounded-lg hover:shadow-xl hover:rounded-md hover:animate-pulse hover:scale-110 focus:outline-none transition ease-in-out duration-150">
+                Extract Data
+              </button>
+            </div>
+            <div id="message" class="mt-3 text-center"></div>
+          </form>
         </div>
-        
-        <div class="main-content bg-black/30 shadow-md rounded-lg p-8 text-white backdrop-blur-sm">
-          
-        </div>
-        
-        <div class="main-content bg-black/30 shadow-md rounded-lg p-8 text-white backdrop-blur-sm">
-          
-        </div>
-        
-            
-        </div>
-        <div></div>
+      </div>
     </div>
 
-    <!-- JS Bundle -->
-  </body>
+    <div
+      class="main-content bg-black/30 shadow-md rounded-lg p-8 text-white backdrop-blur-sm hover:scale-101 hover:backdrop-blur-xl transition ease-in-out duration-150">
+      <h1 class="text-4xl font-bold text-center mb-6">Analyze and Filter Candidates</h1>
+      <div class="container mx-auto flex justify-center items-center">
+        <div>
+          <p class="text-lg text-gray-300 mb-4 text-center">
+            Upload a ZIP file containing CVs of Candidates and let us do the work!
+          </p>
+          <form method="POST" action="/analyze_resumes" enctype="multipart/form-data" class="space-y-4">
+            <!-- <form method="POST" action="/extract-data" enctype="multipart/form-data" class="space-y-4"> -->
+            <div class="mb-3">
+              <label for="file" class="block text-gray-300 font-medium mb-2">Upload ZIP file</label>
+              <input
+                class="block w-full mt-1 p-2 border border-gray-300 rounded-md hover:shadow-md focus:ring-blue-500 focus:border-blue-500 transition-ease-in-out duration-150"
+                type="file" id="file" name="file" accept=".zip" />
+            </div>
+            <div class="flex flex-row justify-center">
+              <button id="extractButton" type="submit"
+                class="bg-[#bd396c] px-10 text-lg text-white py-2 px-4 rounded-lg hover:shadow-xl hover:rounded-md hover:animate-pulse hover:scale-110 focus:outline-none transition ease-in-out duration-150">
+                Analyze Resumes
+              </button>
+            </div>
+            <div id="message" class="mt-3 text-center"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content bg-black/30 shadow-md rounded-lg p-8 text-white backdrop-blur-sm">
+
+    </div>
+
+
+  </div>
+  <div></div>
+  </div>
+
+  <!-- JS Bundle -->
+</body>
+
 </html>

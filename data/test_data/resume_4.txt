@@ -1,0 +1,32 @@
+resume_4 = """
+Michael Anderson  
+michael.anderson@example.com  
++1-408-999-5555  
+Austin, TX  
+
+PROFESSIONAL SUMMARY  
+Experienced DevOps Engineer with a focus on automating cloud deployments and improving operational efficiency. Proficient in Jenkins, Kubernetes, Terraform, and Prometheus.
+
+EXPERIENCE  
+DevOps Engineer at CloudOps Solutions  
+March 2018 - Present  
+- Developed infrastructure automation scripts using Terraform and Ansible.  
+- Managed Docker container orchestration with Kubernetes.  
+- Integrated Prometheus and Grafana for monitoring cloud-based applications.  
+- Automated CI/CD pipelines using Jenkins and GitLab.
+
+EDUCATION  
+B.S. in Information Technology  
+University of Texas at Austin  
+Graduated: December 2017  
+
+SKILLS  
+Jenkins, Terraform, Ansible, Prometheus, Grafana  
+AWS, Azure, Google Cloud  
+Docker, Kubernetes, GitLab  
+Python, Bash, Go  
+
+EXTERNAL LINKS  
+https://github.com/michaelanderson  
+https://linkedin.com/in/michaelanderson  
+"""
